@@ -1,0 +1,27 @@
+{ 
+    "type":"TractorBeamTurret",
+    "name":"天罚", 
+    "description":"武器级离子切割机，需要大量能量，在敌人的身上开个洞", 
+    "health":3300,
+    "size":3,
+    "rotateSpeed":7,
+	"range":250,
+	"scaledForce":0,
+	"force": 0,
+	"targetGround":true,
+	"targetAir":true,
+	"hasPower":true,
+	"damage": 25,
+	"consumes": {
+	"power":10
+	},
+	  "requirements": [
+	    { "item": "lead", "amount":400 },
+		{ "item": "silicon", "amount":350 },
+		{ "item": "titanium", "amount":260 },
+		{ "item": "surge-alloy", "amount": 120 },	
+		{ "item": "二级协议", "amount": 0 }
+	],
+	"category": "turret",
+	"research": "parallax"
+}

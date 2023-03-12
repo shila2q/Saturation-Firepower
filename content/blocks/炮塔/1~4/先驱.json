@@ -1,0 +1,68 @@
+{
+	"type": "PowerTurret",
+	"name": "先驱",
+	"description": "向敌人发射小型震爆能量弹",
+	"targetAir": true,
+	"targetGround": true,
+	"health": 370,
+	"size": 1, 
+	"shootSound":"JG1",
+	"shake":0.2,
+	"inaccuracy": 0,
+	"recoil": 1,
+	"recoilTime":10,
+	"shootType": {
+	"type" : "BasicBulletType",
+	"damage": 12,
+	"frontColor":"FFFFFF",
+	"backColor":"BFFFDBFF",
+	"width": 7,
+	"height": 8,
+	"status":"unmoving",
+	"statusDuration":10,
+	"speed": 6,"lifetime": 24,
+	"ammoMultiplier":1,
+	"hitEffect": {     
+        "type": "WaveEffect",
+        "lifetime": 8,
+        "sizeFrom": 0,
+        "sizeTo": 8,
+        "strokeFrom": 1,
+        "strokeTo": 0,
+        "colorFrom": "FFFFFF",
+        "colorTo": "BFFFDBFF"
+	   },
+	   "despawnEffect": {     
+        "type": "WaveEffect",
+        "lifetime": 8,
+        "sizeFrom": 0,
+        "sizeTo": 8,
+        "strokeFrom": 1,
+        "strokeTo": 0,
+        "colorFrom": "FFFFFF",
+        "colorTo": "BFFFDBFF"
+	   }
+	},
+	"shootEffect": {     
+        "type": "WaveEffect",
+        "lifetime": 8,
+        "sizeFrom": 0,
+        "sizeTo": 8,
+        "strokeFrom": 1,
+        "strokeTo": 0,
+        "colorFrom": "FFFFFF",
+        "colorTo": "BFFFDBFF"
+	   },
+	   "consumes": {"power":1,
+		"coolant":{"amount":0.1,"optional":true}  
+			},
+	"reload": 20,
+	"rotateSpeed": 13,
+	"range": 120,
+	"category": "turret",
+	"research": "多管炮",
+	"requirements": [
+	{ "item": "copper", "amount":90},
+	{ "item": "lead", "amount":100}
+	]
+}

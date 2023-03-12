@@ -1,0 +1,12 @@
+{
+		"consumes":{
+		"power":28,
+		"items": {"items": [
+	"silicon/1000",
+	"plastanium/750",
+	"surge-alloy/550"
+	]
+		},
+		"liquid": 
+	{"liquid": "cryofluid", "amount": 3 }	}
+}

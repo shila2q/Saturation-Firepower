@@ -1,0 +1,38 @@
+{
+	"name": "阳离子照射炮",
+	"description": "分离水中阳离子对中程敌人持续轰击",
+	"type": "LaserTurret",
+	"size": 3,
+	"health": 2150,
+	"shootEffect":"none",
+	"shootSound":"pulse",
+	"range": 200,
+	"reload":3,
+	"liquidCapacity": 120,
+	"inaccuracy": 0,
+	"recoil": 3,
+	"rotateSpeed": 9,
+	"shake": 2,
+	"coolEffect":"steam",
+	"cooldownTime":20,
+	"consumes":{
+	"power":8,
+	"liquid":
+{"liquid":"water","amount":"1"}},
+	"shootType": {
+	"type": "ContinuousLaserBulletType",
+	"hitEffect": "hitMeltdown",
+	"width":4,	"length":230,
+	"knockback":1,
+	"damage":15,	"ammoMultiplier":1
+	},
+	"shootDuration": 270,
+	"requirements": [
+   { "item": "lead", "amount": 110},
+   { "item": "silicon", "amount": 80},
+   { "item": "titanium", "amount": 50},
+   { "item": "硅钢", "amount": 45}
+],
+"category": "turret",
+"research": "lancer"
+  }

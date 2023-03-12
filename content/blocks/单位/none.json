@@ -1,0 +1,44 @@
+{
+	"type": "UnitFactory",
+	"name": "none",
+	"description":"放boss用于改作弊mod造价",
+    "health":0,
+	"size":16,
+	"buildVisibility":"debugOnly",
+	"canOverdrive": false,
+	"consumes":{"power":999999999},
+	"plans":[
+	{"unit": "泰坦", "time":99999999999,
+	"requirements": [
+	"copper/99e9","lead/99e9","titanium/99e9","thorium/99e9",
+	"metaglass/99e9","silicon/99e9","graphite/99e9",
+	"plastanium/99e9","phase-fabric/99e9","surge-alloy/99e9",
+	"硅钢/99e9","纳米核/99e9","裂位能/99e9",
+	"莱普合金/99e9","泰勒合金/99e9","镄/99e9","铬/99e9",
+    "一级协议/99e9","二级协议/99e9","三级协议/99e9"]},
+	{"unit": "利刃", "time":99999999999,
+	"requirements": [
+	"copper/99e9","lead/99e9","titanium/99e9","thorium/99e9",
+	"metaglass/99e9","silicon/99e9","graphite/99e9",
+	"plastanium/99e9","phase-fabric/99e9","surge-alloy/99e9",
+	"硅钢/99e9","纳米核/99e9","裂位能/99e9",
+	"莱普合金/99e9","泰勒合金/99e9","镄/99e9","铬/99e9",
+    "一级协议/99e9","二级协议/99e9","三级协议/99e9"]},
+	{"unit": "伯劳", "time":99999999999,
+	"requirements": [
+	"copper/99e9","lead/99e9","titanium/99e9","thorium/99e9",
+	"metaglass/99e9","silicon/99e9","graphite/99e9",
+	"plastanium/99e9","phase-fabric/99e9","surge-alloy/99e9",
+	"硅钢/99e9","纳米核/99e9","裂位能/99e9",
+	"莱普合金/99e9","泰勒合金/99e9","镄/99e9","铬/99e9",
+    "一级协议/99e9","二级协议/99e9","三级协议/99e9"]},
+	{"unit": "亚龙", "time":99999999999,
+	"requirements": [
+	"copper/99e9","lead/99e9","titanium/99e9","thorium/99e9",
+	"metaglass/99e9","silicon/99e9","graphite/99e9",
+	"plastanium/99e9","phase-fabric/99e9","surge-alloy/99e9",
+	"硅钢/99e9","纳米核/99e9","裂位能/99e9",
+	"莱普合金/99e9","泰勒合金/99e9","镄/99e9","铬/99e9",
+    "一级协议/99e9","二级协议/99e9","三级协议/99e9"]}
+	]
+}

@@ -1,0 +1,55 @@
+{
+	"type": "GenericCrafter",
+	"name": "激活器",
+	"description": "激活纳米核，转变为大量纳米机器组成的流体并混入冷冻液中",
+	"health": 360,
+	"outputLiquid":{"liquid": "纳米流体", "amount": 0.3},
+	"itemCapacity": 10,
+	"size": 3,
+	"drawer":{
+	    "type":"DrawMulti",
+	    "drawers":[
+	    {"type":"DrawRegion",
+	    "suffix":"-bottom"
+	    },
+	    {"type":"DrawLiquidTile",
+	    "drawLiquid":"纳米流体"
+	    },
+		{"type":"DrawRegion",
+    	"suffix":"-转",
+    	"spinSprite":true,
+   		"rotateSpeed":0.62},
+	    "DrawDefault"
+	]},
+	"hasItems": true,
+	"hasLiquids": true,
+	"outputsLiquid": true,
+	"hasPower": true,
+	"liquidCapacity": 60,
+	"craftTime": 120,
+	"updateEffect": {
+		"type": "ParticleEffect",
+		"particles": 5,
+		"sizeFrom": 2,
+		"sizeTo": 0,
+		"length": 0,
+		"baseLength":0,
+        "lifetime": 30,
+        "colorFrom": "97FFA8",
+        "colorTo": "97FFA8"
+    },
+	"consumes":{
+	"power": 6,
+	"items": {"items": [
+	{ "item": "纳米核", "amount": 2}	]	},
+	"liquid": 
+	{"liquid": "cryofluid", "amount": 0.3 }	},
+	"requirements": [
+	{ "item": "lead", "amount": 70 },
+	{ "item": "titanium", "amount": 45 },
+	{ "item": "silicon", "amount": 85 },
+	{ "item": "一级协议", "amount": 0 }
+	],
+	"category": "crafting",
+	"research": "cryofluid-mixer"
+}

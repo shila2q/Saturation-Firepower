@@ -1,0 +1,62 @@
+{
+	"type": "Reconstructor",
+	"name": "泰特级单位重构工厂",
+    "health":8800,
+	"size":11,
+	"liquidCapacity":180,
+	"consumes":{
+		"power":45,
+		"items": {	"items": [
+	{"item":"silicon","amount":1300},
+	{"item":"plastanium","amount":850},
+	{"item":"surge-alloy","amount":700},
+	{ "item": "硅钢", "amount": 800 },
+	{"item":"泰勒合金","amount":600},
+	{ "item": "裂位能", "amount": 450 }
+	]
+		},
+		"liquid": 
+	{"liquid": "cryofluid", "amount": 6 }	},
+	"upgrades":[
+        ["reign","陆战6"],
+		["eclipse","空战6"], 
+		["omura","海战6"],
+		["toxopid","爬爬6"],
+		["corvus","路辅6"],
+		["oct","空辅6"],
+		["navanax","海辅6"],
+		["陆5","陆6"],
+		["空5","空6"],
+		["海5","海6"]
+	],
+	"constructTime":17280,
+	"requirements": [
+		{"item":"lead","amount":4000},
+    	{"item":"silicon","amount":3800},
+		{"item":"plastanium","amount":2200},
+		{"item":"surge-alloy","amount":1700},
+	    {"item":"镄","amount":800},
+	    {"item":"硅钢","amount":1500},
+	    {"item":"泰勒合金","amount":900},
+		{"item":"裂位能", "amount": 750},
+		{"item":"三级协议","amount":30}
+	],
+	"category":"units",
+	"buildVisibility":"shown",
+	"research": {
+		"parent": "战研",
+		"objectives": [
+			{
+				"type": "SectorComplete",
+				"preset": "荒芜矿区"
+			},
+			{
+				"type": "SectorComplete",
+				"preset": "中央盆地"
+			},
+			{
+				"type": "SectorComplete",
+				"preset": "第五战区"
+			}
+			]}
+}

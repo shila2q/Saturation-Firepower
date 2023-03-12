@@ -1,0 +1,21 @@
+{ "ammoTypes": {
+"graphite":"artilleryDense",
+"silicon":"artilleryHoming",
+"pyratite":"artilleryIncendiary",
+"硅钢": {
+     "type":"ArtilleryBulletType",
+     "damage":5,
+	 "speed":3,
+	 "width": 9,
+	 "height": 9,
+	 "lifetime":60,
+	 "hitEffect":"blastExplosion", 
+	 "despawnEffect":"blastExplosion",
+	 "splashDamageRadius":25,
+	 "splashDamage":25,
+     "ammoMultiplier": 2,
+     "status":"unmoving",
+     "statusDuration":60
+}
+}
+}

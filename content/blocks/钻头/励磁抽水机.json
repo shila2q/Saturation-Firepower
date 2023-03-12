@@ -1,0 +1,25 @@
+{
+"name":"励磁抽水机" ,
+"description":"优化设计，泵送更多液体，需要更多的能量。",
+"type": "SolidPump",
+"health": 250,
+"size": 2,
+"floating":true,
+"hasPower": true,
+"hasLiquids": true,
+"liquidCapacity": 30,
+	"requirements": [
+		{"item": "graphite", "amount": 35},
+	    {"item": "silicon", "amount": 20},
+	    {"item": "硅钢", "amount": 25},
+		{"item": "一级协议", "amount": 0}
+],
+"consumes": { "power": 1.81},
+"pumpAmount": 0.3,
+"rotateSpeed": 1.3,
+"result":"water",
+"baseEfficiency": 1,
+"attribute": "water",
+"category": "production",
+"research": "water-extractor"
+}

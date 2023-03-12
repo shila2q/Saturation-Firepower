@@ -1,0 +1,35 @@
+{
+	"details": "安装搜空雷达与狗斗机炮\n咬住！",
+	"immunities": [
+		"unmoving"
+	],
+	"rotateSpeed": 3.5,
+	"speed": 3.5,
+	"accel": 0.1,
+	"drag": 0.09,
+	"trailLength":3.23,
+	"targetAir": true,
+	"circleTarget": true,
+	"health": 150,
+	"weapons": [
+		{
+			"name": "none",
+			"reload": 4,
+			"x": 1.75,
+			"y": 3,
+			"rotate": false,
+			"inaccuracy": 1,
+			"ignoreRotation": true,
+			"alternate": true,
+			"ejectEffect": "casing1",
+			"shootSound": "shoot",
+			"bullet": {
+				"damage": 10,
+				"speed": 8,
+				"lifetime": 30,
+				"width": 5,
+				"height": 8
+			}
+		}
+	]
+}

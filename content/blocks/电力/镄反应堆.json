@@ -1,0 +1,126 @@
+{
+    "type": "NuclearReactor",
+    "name": "镄反应堆",
+    "description": "利用镄的强烈放射性产生能量，需要持续冷却液供给，过热或被摧毁会导致剧烈爆炸。",
+    "size": 3,
+    "health": 1500,
+    "liquidCapacity": 60,
+    "itemCapacity": 15,
+    "hasItems": true,
+    "hasLiquids": true,
+    "outputsPower": true,
+    "powerProduction": 90,
+    "itemDuration": 300,
+    "heating":0.04,
+    "lightColor": "FFFFFF",
+    "explosionShake":9,
+    "explosionShakeDuration":120,
+    "explosionRadius": 35,
+    "explosionDamage":9000,
+    "explodeSound":"DBZ1",
+    "explodeEffect": {
+    "type": "MultiEffect",
+	"effects": [
+	{
+            "type": "WaveEffect",
+            "lifetime": 40,
+            "sizeFrom": 0,
+            "sizeTo": 320,
+            "strokeFrom": 12,
+            "strokeTo": 0,
+            "colorFrom": "EEC591",
+            "colorTo": "ffffffff"
+        },
+    {"type": "ParticleEffect",
+    "particles": 40,
+    "interp": "pow10Out",
+    "sizeInterp": "pow5In",
+    "sizeFrom": 35,
+    "sizeTo": 0,
+    "length": 350,
+    "baseLength": 0,
+    "lifetime": 250,
+    "colorFrom": "DEDEDE70",
+    "colorTo": "DEDEDE70",
+    "cone": 360
+        },
+    {"type": "ParticleEffect",
+    "particles": 35,
+    "interp": "pow10Out",
+    "sizeInterp": "pow5In",
+    "sizeFrom": 30,
+    "sizeTo": 0,
+    "length": 180,
+    "baseLength": 0,
+    "lifetime": 300,
+    "colorFrom": "DEDEDE70",
+    "colorTo": "DEDEDE70",
+    "cone": 360
+        },
+    {"type": "ParticleEffect",
+    "particles": 25,
+    "interp": "pow10Out",
+    "sizeInterp": "pow5In",
+    "sizeFrom":20,
+    "sizeTo": 0,
+    "length": 180,
+    "baseLength": 0,
+    "lifetime": 350,
+    "colorFrom": "DEDEDE70",
+    "colorTo": "DEDEDE70",
+    "cone": 360
+        },
+    {
+        "type": "ParticleEffect",
+        "particles": 25,
+        "line": true,
+    "sizeInterp": "pow5In",
+        "strokeFrom": 3,
+        "strokeTo": 0,
+        "lenFrom": 200,
+        "lenTo": 0,
+        "length": 270,
+        "baseLength": 50,
+        "lifetime": 60,
+        "colorFrom": "DEDEDE",
+        "colorTo": "DEDEDE",
+        "cone": 360
+            }
+        ]    },
+    "fuelItem":"镄",
+    "consumes": {
+    "liquid": {
+    "liquid": "cryofluid",
+    "amount": 0.1
+        },
+    "items":["镄/1"]
+    },
+    "requirements": [
+        {
+            "item": "lead",
+            "amount": 120
+        },
+        {
+            "item": "graphite",
+            "amount": 90
+        },
+        {
+            "item": "metaglass",
+            "amount": 60
+        },
+        {
+            "item": "镄",
+            "amount": 20
+        },
+        {
+            "item": "silicon",
+            "amount": 130
+        },
+        {
+            "item": "硅钢",
+            "amount": 90
+        }
+    ],
+    "category": "power",
+    "research": "thorium-reactor"
+}

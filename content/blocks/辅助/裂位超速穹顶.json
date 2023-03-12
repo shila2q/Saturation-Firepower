@@ -1,0 +1,31 @@
+{
+	"name": "裂位穹顶投射器",
+	"description": "在中等范围内提供较高超速力场，使用裂位能提高效率。",
+	"type": "OverdriveProjector",
+	"health": 480,
+	"size": 3,
+	"range": 160,
+	"phaseRangeBoost":40,
+	"speedBoostPhase":1,
+	"speedBoost": 2.75,
+	"hasBoost":true,
+	"useTime":60,
+	"consumes": {
+		"power": 6,
+"items":{	"items":[
+	{"item":"裂位能","amount":1}],
+		"booster":true,
+		"optional":true
+	}
+		},
+	"requirements": [
+	{ "item":"lead","amount":300},
+	{ "item":"silicon","amount":230},
+	{ "item":"硅钢","amount":150},
+	{ "item":"surge-alloy","amount":230},
+	{ "item": "裂位能", "amount":70 } ,
+	{ "item":"二级协议","amount":0}
+	],
+	"category": "effect",
+	"research":"overdrive-dome"
+}

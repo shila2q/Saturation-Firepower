@@ -1,0 +1,15 @@
+{
+	"name": "大型裂位墙",
+	"description": "利用钍的放射线在其表面空间撕开一道裂位空间，瞬间注入大量能量会导致裂位空间闭合失效。占据多个方块",
+	"type": "Wall",
+	"health":3400 ,
+	"flashHit":true,
+	"chanceDeflect":100,
+	"size":2,
+	"requirements": [
+	{ "item": "thorium", "amount":16 },
+	{ "item": "裂位能", "amount":8 }
+	],
+	"category": "defense",
+	"research": "裂位墙"
+}

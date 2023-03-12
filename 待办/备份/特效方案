@@ -1,0 +1,133 @@
+星  	"requirements": {
+	"block": "ground-factory",
+	"time": 1680,
+	"requirements": [
+		"silicon/30",
+		"lead/20",
+		"titanium/20"]},
+刀	"requirements": {
+    "block": "ground-factory",
+    "time": 800,
+    "requirements": [
+        "silicon/15",
+        "lead/10"]},
+爬	"requirements": {
+    "block": "ground-factory",
+    "time": 600,
+    "requirements": [
+        "silicon/10",
+        "coal/20"]},
+辉	"requirements": {
+    "block": "air-factory",
+    "time": 900,
+    "requirements": [
+        "silicon/15"
+    ]},
+独    "requirements": {
+    "block": "air-factory",
+    "time": 1500,
+    "requirements": [
+        "lead/15",
+        "silicon/25"]},
+
+        "objectives": [
+			{
+				"type": "SectorComplete",
+				"preset": "extractionOutpost"
+			}]
+
+超速的drawer
+        {"type": "DrawPulseShape",
+		"color": "EEC591",
+		"stroke": 6,
+		"timeScl": 60,
+		"minStroke": 0,
+		"layer": 49,
+		"square": false
+	},
+
+
+    伪十字星开火
+    {"type": "HaloPart",
+        "progress": "recoil",
+        "rotateSpeed": 0,
+        "shapeRotation":0,
+        "y":炮口,
+        "sides": 3,
+        "shapes": 4,
+        "color": "BFFFDB",
+        "colorTo":"BFFFDB88",
+        "tri": true,
+        "hollow": true,
+        "radius": 0,
+        "radiusTo": 5,
+        "triLength": 0,
+        "triLengthTo": 60,
+        "haloRadius": 0,
+        "haloRotation": 0,
+        "haloRotateSpeed": 4,
+        "layer": 110}
+
+
+
+draw image 40 40 @dagger 60 0 0
+drawflush display1
+draw image 40 40 @mace 60 0 0
+drawflush display2
+draw image 40 40 @fortress 60 0 0
+drawflush display3
+draw image 40 40 @scepter 60 0 0
+drawflush display4
+draw image 40 40 @reign 60 0 0
+drawflush display5
+draw image 40 40 @nova 60 0 0
+drawflush display6
+draw image 40 40 @pulsar 60 0 0
+drawflush display7
+draw image 40 40 @quasar 60 0 0
+drawflush display8
+draw image 40 40 @vela 60 0 0
+drawflush display1
+draw image 40 40 @corvus 60 0 0
+drawflush display1
+draw image 40 40 @crawler 60 0 0
+drawflush display1
+draw image 40 40 @atrax 60 0 0
+drawflush display1
+draw image 40 40 @spiroct 60 0 0
+drawflush display1
+draw image 40 40 @arkyid 60 0 0
+drawflush display1
+draw image 40 40 @toxopid 60 0 0
+drawflush display1
+draw image 40 40 @饱和火力-陆1 60 0 0
+drawflush display1
+draw image 40 40 @陆2 60 0 0
+drawflush display1
+draw image 40 40 @陆3 60 0 0
+drawflush display1
+draw image 40 40 @陆4 60 0 0
+drawflush display1
+draw image 40 40 @陆5 60 0 0
+drawflush display1
+
+draw image 40 40 @flare 60 0 0
+drawflush display1
+draw image 40 40 @horizon 60 0 0
+drawflush display2
+draw image 40 40 @zenith 60 0 0
+drawflush display3
+draw image 40 40 @antumbra 60 0 0
+drawflush display4
+draw image 40 40 @eclipse 60 0 0
+drawflush display5
+draw image 40 40 @空1 60 0 0
+drawflush display6
+draw image 40 40 @空2 60 0 0
+drawflush display7
+draw image 40 40 @空3 60 0 0
+drawflush display8
+draw image 40 40 @空4 60 0 0
+drawflush display9
+draw image 40 40 @空5 60 0 0
+drawflush display10

@@ -1,0 +1,128 @@
+{
+    "type": "PowerTurret",
+    "name": "丁达尔",
+    "description": "向敌方空中单位发射密集的穿透光束。火力逐渐加强。",
+    "targetAir": true,
+    "targetGround": false,
+    "health": 3500,
+    "armor":6,
+    "size": 6,
+    "shootSound": "JG1",
+    "shake": 0.5,
+    "shootCone":270,
+    "inaccuracy": 1.2,
+    "recoil": 3,
+    "cooldownTime": 20,
+    "shootY": 0,
+    "coolantMultiplier": 1,
+    "velocityRnd": "0.15",
+    "canOverdrive": false,
+    "reload": 8,
+    "xRand":1.5,
+    "shoot": {
+        "shots": 12,
+        "shotDelay": 4,
+        "type": "ShootBarrel",
+        "barrels": [
+        5.5,22.25,0,
+        -5.5,22.25,0,
+        16,21.25,0,
+        -16,21.25,0
+        ]
+    },
+    "shootType": {
+        "type": "BasicBulletType",
+        "damage": 92,
+        "collidesGround": false,
+        "speed": 20,
+        "lifetime": 36,
+        "drag": 0.005,
+        "pierce": true,
+        "pierceArmor":true,
+        "pierceCap": 3,
+        "absorbable": false,
+        "frontColor": "FFFFFF",
+        "backColor": "FEEBB3FF",
+        "width": 5,
+        "height": 25,
+        "trailLength": 2,
+        "trailWidth": 1.3,
+        "trailColor": "FEEBB3FF",
+        "shrinkY": 0,
+        "shootEffect": {
+            "type": "WaveEffect",
+            "lifetime": 6,
+            "sizeFrom": 1,
+            "sizeTo": 10,
+            "strokeFrom": 1.3,
+            "strokeTo": 0,
+            "colorFrom": "ffffff",
+            "colorTo": "FEEBB3FF"
+        },
+        "smokeEffect": "none",
+        "hitEffect": {
+            "type": "ParticleEffect",
+            "particles": 15,
+            "line": true,
+            "strokeFrom": 3,
+            "strokeTo": 0,
+            "lenFrom": 10,
+            "lenTo": 0,
+            "length": 50,
+            "baseLength": 0,
+            "lifetime": 10,
+            "colorFrom": "FEEBB3FF",
+            "colorTo": "ffffff",
+            "cone": 60
+        },
+        "despawnEffect": 
+            {"type": "ParticleEffect",
+            "particles": 1,
+            "sizeFrom": 1,
+            "sizeTo": 0,
+            "length": 0,
+            "baseLength": 0,
+            "lifetime":8,
+            "colorFrom": "FEEBB3FF",
+            "colorTo": "ffffff",
+            "cone": 360},
+    "ammoMultiplier": 1
+    },
+    "consumes": {
+        "power": 20,
+        "coolant": {
+            "amount": 2,
+            "optional": true
+        }
+    },
+    "rotateSpeed": 2.6,
+    "range": 600,
+    "category": "turret",
+    "research": "天际",
+    "requirements": [
+        {
+            "item": "silicon",
+            "amount": 360
+        },
+        {
+            "item": "metaglass",
+            "amount": 330
+        },
+        {
+            "item": "硅钢",
+            "amount": 220
+        },
+        {
+            "item": "plastanium",
+            "amount": 390
+        },
+        {
+            "item": "泰勒合金",
+            "amount": 280
+        },
+        {
+            "item": "二级协议",
+            "amount": 3
+        }
+    ]
+}
