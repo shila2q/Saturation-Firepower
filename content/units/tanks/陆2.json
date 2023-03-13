@@ -11,7 +11,7 @@
 	"hitSize": 18,
 	"ammoType": "graphite",
 	"ammoCapacity": 80,
-	"health": 850,
+	"health": 660,
 	"armor": 5,
 	"drag": 0.08,
 	"accel": 0.1,

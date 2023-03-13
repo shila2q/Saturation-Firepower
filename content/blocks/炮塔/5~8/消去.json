@@ -32,7 +32,7 @@
 	"research": {
 		"parent": "折跃",
 		"objectives": [
-			//{"type": "SectorComplete","preset": "断层带"},
+			{"type": "SectorComplete","preset": "断层带"},
 			{"type": "SectorComplete","preset": "风沙谷"}
 		]
 	}

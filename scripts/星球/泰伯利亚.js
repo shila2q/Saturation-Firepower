@@ -112,7 +112,7 @@ SFlib.addToResearch(火山岛, {
 	objectives: Seq.with(
 	new Objectives.SectorComplete(SectorPresets.planetaryTerminal))
 });
-/*
+
 const 断层带 = new SectorPreset("断层带", TBLY, 16);
 断层带.description = "这里原是一片岸防基地，前不久探测到大规模地质运动，已经被夷为废墟。\n尚不清楚详细数据信息，接收这片区域，仔细搜查一切可利用的物资并建立哨所。\n第四军团与第五军团海军会与你行动。";
 断层带.difficulty = 4;
@@ -127,7 +127,7 @@ SFlib.addToResearch(断层带, {
 	objectives: Seq.with(
 	new Objectives.SectorComplete(SectorPresets.planetaryTerminal))
 });
-*/
+
 /*
 做不出来，待定
 const 军工河原 = new SectorPreset("军工河原", TBLY, 7);
