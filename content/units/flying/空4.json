@@ -14,7 +14,7 @@
 	"hitSize":35, 
 	"buildSpeed": 0,
 	"flying": true,
-	"health": 23000,
+	"health": 22500,
 	"armor":12,
 	"itemCapacity": 90,
 	"engines": [
