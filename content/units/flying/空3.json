@@ -5,6 +5,7 @@
 	"speed": 2.6,
 	"drag":0.02,"accel":0.03,
 	"rotateSpeed":5,
+    "immunities": ["unmoving","freezing"],
 	"ammoType":{
 	"type":"PowerAmmoType",
 	"totalPower":500},

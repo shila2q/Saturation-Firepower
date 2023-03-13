@@ -18,6 +18,7 @@
 	"engineOffset": 8,
 	"engineSize": 2,
 	"itemCapacity": 0,
+	"immunities":["freezing"],
 	"research": "flare",
 	"requirements": {
 		"block": "air-factory",

@@ -274,6 +274,7 @@
         "lifetime":24,
         "knockback":8,
         "absorbable":false,
+        "pierceArmor": true,
         "ammoMultiplier": 3,
         "status":"崩溃",
         "statusDuration":60,

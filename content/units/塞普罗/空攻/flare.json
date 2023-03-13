@@ -1,8 +1,6 @@
 {
 	"details": "安装搜空雷达与狗斗机炮\n咬住！",
-	"immunities": [
-		"unmoving"
-	],
+	"immunities": ["unmoving","freezing"],
 	"rotateSpeed": 3.5,
 	"speed": 3.5,
 	"accel": 0.1,

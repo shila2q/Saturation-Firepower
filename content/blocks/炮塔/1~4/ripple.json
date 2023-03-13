@@ -110,6 +110,7 @@
 },
 "裂位能": {
 "type":"PointBulletType",
+"pierceArmor": true,
 "trailEffect": "none",
 "despawnEffect":"instBomb",
 "hitEffect":"instBomb",

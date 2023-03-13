@@ -4,7 +4,7 @@
 	"speed": 2.2,
 	"drag": 0.04,
 	"accel": 0.1,
-	"rotateSpeed": 8,
+	"rotateSpeed": 4,
 	"ammoType": {
 		"type": "PowerAmmoType",
 		"totalPower": 200
@@ -20,6 +20,7 @@
 	"engineOffset": 7,
 	"engineSize": 2,
 	"itemCapacity": 0,
+	"immunities":["freezing"],
 	"research": "空1",
 	"requirements": {
 		"block": "additive-reconstructor",
@@ -31,7 +32,7 @@
 			"x": 0,
 			"y": 0,
 			"shootY": 3.5,
-			"reload": 15,
+			"reload": 17,
 			"rotate": false,
 			"shootCone": 15,
 			"recoil": 0,
@@ -93,11 +94,11 @@
 					]
 				},
 				"buildingDamageMultiplier": 0.68,
-				"damage": 15,
+				"damage": 33,
 				"lifetime": 10,
 				"speed": 26,
 				"splashDamageRadius": 30,
-				"splashDamage": 28,
+				"splashDamage": 9,
 				"status": "freezing",
 				"statusDuration": 240,
 				"chargeEffect": {
@@ -130,7 +131,7 @@
 						{
 							"type": "ParticleEffect",
 							"particles": 8,
-							"sizeFrom": 3,
+							"sizeFrom": 2,
 							"sizeTo": 0,
 							"length": 35,
 							"baseLength": 0,
