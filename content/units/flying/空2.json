@@ -37,7 +37,7 @@
 			"recoil": 0,
 			"shootSound": "missile",
 			"heatColor": "c0ecff",
-			"cooldownTime": 150,
+			"cooldownTime": 30,
 			"shoot": {
 				"type": "ShootPattern",
 				"firstShotDelay": 7.5
