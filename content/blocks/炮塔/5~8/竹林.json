@@ -227,6 +227,7 @@
 			"buildingDamageMultiplier": 3,
 			"splashDamageRadius": 50,
 			"splashDamage": 225,
+			"reloadMultiplier": 1.25,
 			"hitSize": 40,
 			"knockback": 28,
 			"speed": 8,
@@ -301,6 +302,8 @@
 			"buildingDamageMultiplier": 3,
 			"speed": 6.88,
 			"lifetime": 203,
+			"reloadMultiplier": 1.25,
+			"reflectable":false,
 			"knockback": 6,
 			"width": 24,
 			"height": 24,
@@ -359,6 +362,7 @@
 			"fragBullets": 5,
 			"fragBullet": {
 				"type": "BasicBulletType",
+				"reflectable":false,
 				"buildingDamageMultiplier": 3,
 				"damage": 13,
 				"hitEffect":{
@@ -718,6 +722,7 @@
 			"lifetime": 90,
 			"speed": 100,
 			"ammoMultiplier": 1,
+			"reloadMultiplier": 0.85,
 			"hitSound": "plasmaboom",
 			"despawnEffect": {
 				"type": "ParticleEffect",
@@ -787,6 +792,7 @@
 				"fragVelocityMin": 1,
 				"fragBullet": {
 					"type": "BasicBulletType",
+					"reflectable":false,
 					"damage": 90,
 					"speed": 4,
 					"spin": 5,
@@ -795,7 +801,7 @@
 					"lifetime": 85,
 					"width": 80,
 					"height": 80,
-					"drag": -0.02,
+					"drag": -0.016,
 					"trailLength": 10,
 					"trailWidth": 6,
 					"trailColor": "BFFFDBa0",
@@ -898,11 +904,11 @@
 		},
 		{
 			"item": "裂位能",
-			"amount": 850
+			"amount": 1050
 		},
 		{
 			"item": "泰勒合金",
-			"amount": 1000
+			"amount": 1500
 		},
 		{
 			"item": "三级协议",
@@ -910,5 +916,13 @@
 		}
 	],
 	"category": "turret",
-	"research": "扩散轨道炮"
+	"research": {
+		"parent": "扩散轨道炮",
+		"objectives": [
+			{
+				"type": "SectorComplete",
+				"preset": "雷鸣裂谷"
+			}
+		]
+	}
 }

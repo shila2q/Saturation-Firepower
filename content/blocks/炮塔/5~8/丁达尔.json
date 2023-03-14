@@ -9,13 +9,13 @@
     "size": 6,
     "shootSound": "JG1",
     "shake": 0.5,
-    "shootCone":270,
+    "shootCone": 270,
     "inaccuracy": 1.2,
     "recoil": 3,
     "cooldownTime": 20,
     "shootY": 0,
     "coolantMultiplier": 1,
-    "velocityRnd": "0.15",
+    "velocityRnd": 0.15,
     "canOverdrive": false,
     "reload": 8,
     "xRand":1.5,
@@ -98,27 +98,35 @@
     "rotateSpeed": 2.6,
     "range": 600,
     "category": "turret",
-    "research": "天际",
+	"research": {
+		"parent": "天际",
+		"objectives": [
+			{
+				"type": "SectorComplete",
+				"preset": "迫降区"
+			}
+		]
+	},
     "requirements": [
         {
             "item": "silicon",
-            "amount": 360
+            "amount": 660
         },
         {
             "item": "metaglass",
-            "amount": 330
+            "amount": 500
         },
         {
             "item": "硅钢",
-            "amount": 220
+            "amount": 450
         },
         {
             "item": "plastanium",
-            "amount": 390
+            "amount": 450
         },
         {
             "item": "泰勒合金",
-            "amount": 280
+            "amount": 420
         },
         {
             "item": "二级协议",

@@ -72,7 +72,7 @@
     "ammoMultiplier":4,
 	"damage": 45,
     "splashDamageRadius":80,
-    "splashDamage":80,
+    "splashDamage":92,
     "hitShake":10,
     "lightningColor":"A278E1FF",
     "lightningDamage":70,

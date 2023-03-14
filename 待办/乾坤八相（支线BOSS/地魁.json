@@ -19,7 +19,7 @@
 		"阳电","阴电","崩溃"
 	],
 	"ammoCapacity": 99999,
-	"health": 362000,
+	"health": 462000,
 	"armor": 258,
 	"accel": 0.098,
 	"drag": 0.075,
@@ -259,184 +259,7 @@
 				]
 			}
 		},
-		{
-			"name": "偏袒2",
-			"reload": 145.72,
-			"x": 56,
-			"y": -56,
-			"cooldownTime": 150,
-			"rotate": true,
-			"rotateSpeed": 1.35,
-			"recoil": 3,
-			"inaccuracy": 0,
-			"shootSound": "mediumCannon",
-			"shake": 8.6,
-			"parts": [
-				{
-					"type": "RegionPart",
-					"mirror": true,
-					"x": 0,
-					"y": 0,
-					"suffix": "-管",
-					"progress": "recoil",
-					"heatProgress": "recoil",
-					"under": true,
-					"moveY": -4
-				}
-			],
-			"shootY": 29,
-			"bullet": {
-				"type": "ArtilleryBulletType",
-				"splashDamage": 328,
-				"splashDamageRadius": 86,
-				"lightningColor": "EEC591",
-				"lightningDamage": 127,
-				"lightning": 2,
-				"lightningLength": 20,
-				"buildingDamageMultiplier": 7.55,
-				"sprite": "missile-large",
-				"width": 10,
-				"height": 20,
-				"speed": 12,
-				"lifetime": 43,
-				"pierceArmor": true,
-				"hittable": false,
-				"absorbable": false,
-				"status": "崩溃",
-				"statusDuration": 360,
-				"frontColor": "FFFFFF",
-				"backColor": "EEC591",
-				"trailLength": 10,
-				"trailWidth": 4,
-				"trailColor": "EEC591",
-				"shrinkY": 0,
-				"hitSound": "plasmaboom",
-				"hitSoundVolume": 6,
-				"hitShake": 8,
-				"hitEffect": {
-					"type": "MultiEffect",
-					"effects": [
-						{
-							"type": "ParticleEffect",
-							"particles": 13,
-							"sizeFrom": 8,
-							"sizeTo": 0,
-							"length": 86,
-							"baseLength": 8,
-							"interp": "pow10Out",
-							"sizeInterp": "pow5In",
-							"lifetime": 95,
-							"colorFrom": "EEC59180",
-							"colorTo": "EEC591",
-							"cone": 360
-						},
-						{
-							"type": "ParticleEffect",
-							"particles": 16,
-							"line": true,
-							"strokeFrom": 2,
-							"strokeTo": 0,
-							"lenFrom": 35,
-							"lenTo": 0,
-							"length": 100,
-							"baseLength": 0,
-							"lifetime": 16,
-							"colorFrom": "EEC591",
-							"colorTo": "EEC591",
-							"cone": 360
-						},
-						{
-							"type": "WaveEffect",
-							"lifetime": 26,
-							"sizeFrom": 5,
-							"sizeTo": 90,
-							"strokeFrom": 8,
-							"strokeTo": 0,
-							"colorFrom": "EEC591",
-							"colorTo": "EEC591"
-						},
-						{
-							"type": "WaveEffect",
-							"lifetime": 26,
-							"sizeFrom": 5,
-							"sizeTo": 106,
-							"strokeFrom": 11,
-							"strokeTo": 0,
-							"colorFrom": "EEC591",
-							"colorTo": "EEC591"
-						}
-					]
-				},
-				"shootEffect": {
-					"type": "ParticleEffect",
-					"particles": 9,
-					"interp": "pow5Out",
-					"sizeInterp": "pow5In",
-					"sizeFrom": 6,
-					"sizeTo": 0,
-					"length": 45,
-					"baseLength": 0,
-					"lifetime": 65,
-					"colorFrom": "EEC591",
-					"colorTo": "EEC59180",
-					"cone": 18
-				},
-				"smokeEffect": {
-					"type": "WaveEffect",
-					"lifetime": 28,
-					"sizeFrom": 0,
-					"sizeTo": 50,
-					"strokeFrom": 5,
-					"strokeTo": 0,
-					"colorFrom": "EEC591",
-					"colorTo": "EEC591"
-				},
-				"despawnEffect": {
-					"type": "ParticleEffect",
-					"particles": 1,
-					"sizeInterp": "pow5Out",
-					"sizeFrom": 0,
-					"sizeTo": 60,
-					"length": 0,
-					"baseLength": 0,
-					"lifetime": 95,
-					"colorFrom": "EEC591FF",
-					"colorTo": "EEC59100",
-					"cone": 360
-				}
-			},
-			"ejectEffect": {
-				"type": "MultiEffect",
-				"effects": [
-					{
-						"type": "ParticleEffect",
-						"particles": 12,
-						"sizeFrom": 13,
-						"sizeTo": 0,
-						"length": 60,
-						"baseLength": 0,
-						"interp": "pow10Out",
-						"sizeInterp": "pow5In",
-						"layer": 60,
-						"lifetime": 95,
-						"colorFrom": "73737390",
-						"colorTo": "73737390",
-						"cone": 360
-					},
-					{
-						"type": "WaveEffect",
-						"lifetime": 18,
-						"sizeFrom": 0,
-						"sizeTo": 70,
-						"strokeFrom": 30,
-						"strokeTo": 8,
-						"layer": 60,
-						"colorFrom": "FFFFFF",
-						"colorTo": "FFFFFF10"
-					}
-				]
-			}
-		},
+
 		{
 			"name": "地魁1",
 			"reload": 220,
@@ -451,7 +274,7 @@
 			"shake": 10,
 			"bullet": {
 				"type": "BasicBulletType",
-				"damage": 1280,
+				"damage": 3820,
 				"sprite": "missile-large",
 				"width": 16,
 				"height": 30,
@@ -463,6 +286,7 @@
 				"pierceArmor": true,
 				"pierceBuilding": true,
 				"absorbable": false,
+				"konckback":46.2,
 				"status": "崩溃",
 				"statusDuration": 680,
 				"frontColor": "FFFFFF",
@@ -629,9 +453,9 @@
 				"fragBullets": 1,
 				"fragBullet": {
 					"type": "BasicBulletType",
-					"splashDamage": 228,
+					"splashDamage": 588,
 					"splashDamageRadius": 88,
-					"buildingDamageMultiplier": 2.25,
+					"buildingDamageMultiplier": 3,
 					"instantDisappear": true,
 					"collides": false,
 					"pierce": true,

@@ -21,7 +21,7 @@
     "firstShotDelay": 80
     },
     "shootY": 10,
-    "coolantMultiplier": 0.55,
+    "coolantMultiplier": 0.5,
     "heatColor": "FF4040",
     "shootSound": "laserblast",
     "shootEffect": {

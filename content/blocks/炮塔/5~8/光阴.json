@@ -12,10 +12,10 @@
     "inaccuracy": 0,
     "recoil": 6,
     "cooldownTime": 120,
-    "liquidCapacity": 360,
+    "liquidCapacity": 60,
     "canOverdrive": false,
     "recoilTime": 100,
-    "reload": 83,
+    "reload": 92,
     "rotateSpeed": 2,
     "range": 700,
     "shoot": {
