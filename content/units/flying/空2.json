@@ -38,7 +38,7 @@
 			"recoil": 0,
 			"shootSound": "missile",
 			"heatColor": "c0ecff",
-			"cooldownTime": 30,
+			"cooldownTime": 20,
 			"shoot": {
 				"type": "ShootPattern",
 				"firstShotDelay": 7.5
@@ -96,9 +96,9 @@
 				"buildingDamageMultiplier": 0.68,
 				"damage": 33,
 				"lifetime": 10,
-				"speed": 26,
+				"speed": 16,
 				"splashDamageRadius": 30,
-				"splashDamage": 9,
+				"splashDamage": 8.8,
 				"status": "freezing",
 				"statusDuration": 240,
 				"chargeEffect": {
