@@ -22,7 +22,7 @@
 				"damage": 12,
 				"lifetime": 20,
 				"backColor":"E3E3E3",
-				"frongColor":"FFFFFF",
+				"frontColor":"FFFFFF",
 				"speed": 3
 			},
 			"explodeRange":20,

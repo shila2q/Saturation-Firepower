@@ -7,7 +7,7 @@
     "shoot": {
         "type": "ShootSpread",
         "shots": 3,
-        "spread": 15},
+        "spread": 13},
 	"reload":27,     
     "x":11,  "y":-5, 
 	"shootY":7,
@@ -63,7 +63,7 @@
     "shootEffect":"shootSmall",
     "smokeEffect":"shootBigSmoke2",
     "speed":3,
-    "lifetime":92,
+    "lifetime":98,
     "width":25,
     "height":25,
     "frontColor":"ffffff",
