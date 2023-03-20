@@ -135,5 +135,19 @@
                 "buildingDamageMultiplier": 5
             }
         }
-    }
+    },
+	"research": {
+		"parent": "分子数据库",
+		"objectives": [
+			{
+				"type": "SectorComplete",
+				"preset": "断层带"
+			}]},
+    "requirements": [
+		"镄/2000",
+        "metaglass/500",
+        "silicon/750",
+        "泰勒合金/120",
+        "裂位能/500"
+	]
 }

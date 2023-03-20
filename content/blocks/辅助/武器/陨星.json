@@ -61,8 +61,10 @@
 			"despawnEffect": "none"
 		}
 	},
-	"requirements": [],
-    "buildVisibility": "sandboxOnly",
+	"requirements": [
+		"镄/25000","blast-compound/50000"
+	],
+    //"buildVisibility": "sandboxOnly",
 	"category": "turret",
 	"research": "陨星"
 }
