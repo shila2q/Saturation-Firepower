@@ -1,5 +1,6 @@
 {
 	"type": "legs",
+    //"hidden":true,
     "legContinuousMove": true,
     "lockLegBase": true,
     "legCount":4,

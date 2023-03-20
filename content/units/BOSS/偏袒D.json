@@ -1,5 +1,6 @@
 {
 	"type": "legs",
+    //"hidden":true,
 	"lockLegBase": true,
 	"legCount": 6,
 	"legLength": 35,
