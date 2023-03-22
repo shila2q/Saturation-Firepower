@@ -1,7 +1,5 @@
 {
-"name":"干扰",
-	"damageMultiplier":1,
-	"healthMultiplier":1,
+    "name":"干扰",
 	"speedMultiplier":0.3,
 	"reloadMultiplier":0.5,
 	"effectChance":0.5,

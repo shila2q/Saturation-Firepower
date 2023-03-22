@@ -1,6 +1,7 @@
 {
 	"type": "tank",
 	"name": "地魁",
+	"outlineColor":"383848",
 	"squareShape": true,
 	"hovering": true,
 	"omniMovement": false,
@@ -25,7 +26,6 @@
 	"accel": 0.098,
 	"drag": 0.075,
 	"drownTimeMultiplier":250000,
-	"itemCapacity": 500,
 	"faceTarget": false,
 	"research": "地魁",
 	"treadPullOffset":43,
@@ -186,6 +186,7 @@
 			"reload": 135.72,
 			"x": 36,
 			"y": -36,
+			//"baseRotation":180,
 			"cooldownTime": 150,
 			"rotate": true,
 			"rotateSpeed": 1.35,
@@ -229,7 +230,7 @@
 				"frontColor": "FFFFFF",
 				"backColor": "FEEBB3",
 				"trailLength": 10,
-				"trailWidth": 4,
+				"trailWidth": 3,
 				"trailColor": "FEEBB3",
 				"shrinkY": 0,
 				"hitSound": "plasmaboom",
@@ -375,7 +376,6 @@
 			"bullet": {
 				"type": "BasicBulletType",
 				"damage": 3820,
-				"knockback":13,
 				"buildingDamageMultiplier": 0.63,
 				"sprite": "missile-large",
 				"width": 16,
@@ -388,7 +388,7 @@
 				"pierceArmor": true,
 				"pierceBuilding": true,
 				"absorbable": false,
-				"konckback":46.2,
+				"knockback":46.2,
 				"status": "崩溃",
 				"statusDuration": 680,
 				"frontColor": "FFFFFF",
@@ -485,7 +485,20 @@
 						}
 					]
 				},
-				"smokeEffect": "smokeCloud",
+				"smokeEffect":{
+					"type": "ParticleEffect",
+					"particles": 9,
+					"interp": "pow10Out",
+					"sizeInterp": "pow5In",
+					"sizeFrom": 6,
+					"sizeTo": 0,
+					"length": 65,
+					"baseLength": 0,
+					"lifetime": 65,
+					"colorFrom": "FEEBB3",
+					"colorTo": "FEEBB380",
+					"cone": 15
+				},
 				"despawnEffect": {
 					"type": "MultiEffect",
 					"effects": [
