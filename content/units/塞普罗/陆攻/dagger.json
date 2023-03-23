@@ -2,7 +2,7 @@
     "health":250,
     "boostMultiplier": 1.5,
     "engineOffset": 5, 
-    "engineSize": 2, 
+    "engineSize": 2,
     "canBoost": true,
 	"weapons":[
 	{	"name": "尖刀1",	

@@ -23,8 +23,8 @@
 				"region": "饱和火力-三角形",
 				"sizeFrom": 1,
 				"sizeTo": 0,
-				"colorFrom": "f68021",
-				"colorTo": "f68021A8",
+				"colorFrom": "FF5B5B",
+				"colorTo": "FF5B5BA8",
 				"cone": 360
 			},
 			{
@@ -37,8 +37,8 @@
 				"sizeInterp": "fastSlow",
 				"sizeFrom": 3,
 				"sizeTo": 0,
-				"colorFrom": "f68021",
-				"colorTo": "f68021A8",
+				"colorFrom": "FF5B5B",
+				"colorTo": "FF5B5BA8",
 				"cone": 360
 			},
 			{
@@ -53,7 +53,7 @@
 				"sizeInterp":"pow5In",
 				"sizeFrom": 3,
 				"sizeTo": 0,
-				"colorFrom": "f68021A8",
+				"colorFrom": "FF5B5BA8",
 				"colorTo": "585858A8",
 				"cone": 360
 			}

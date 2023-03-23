@@ -15,7 +15,7 @@
 	"targetAir":true,
 	"inaccuracy": 1,
 	"rotateSpeed": 9,
-	"velocityRnd": "0.1",
+	"velocityRnd": 0.1,
 	"consumes": { "power": 3},
 	"liquidCapacity": 300,
 	"ammoTypes": {

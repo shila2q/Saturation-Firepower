@@ -1,9 +1,8 @@
 {
     "name":"绝判",
-    "damage": 1.66666,
+    "damage": 6.66666,
 	"damageMultiplier":8.333,
 	"healthMultiplier":0.24,
-	"speedMultiplier":1.33,
 	"reloadMultiplier":0.36,
 	"effectChance":0.5,
 	"effect":{	"type": "ParticleEffect",

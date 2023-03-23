@@ -1,6 +1,7 @@
 {
 	"type": "tank",
 	"name": "地魁",
+	"healColor":"FF5B5B",
 	"outlineColor":"383848",
 	"squareShape": true,
 	"hovering": true,
@@ -27,7 +28,10 @@
 	"drag": 0.075,
 	"drownTimeMultiplier":250000,
 	"faceTarget": false,
-	"research": "地魁",
+	"research": {
+		"parent": "地魁",
+		//"objectives": [{"type": "SectorComplete","preset": "实验种植地"}]
+	},
 	"treadPullOffset":43,
 	"treadFrames":64,
 	"treadRects": [
@@ -155,7 +159,7 @@
 		"colorFrom":"FEEBB3",
 		"colorTo": "FEEBB3"}]},
 		"despawnEffect":"flakExplosion",
-		"sprite":"饱和火力-落雁",  
+		"sprite":"饱和火力-落雁",
 		"trailLength":8,
 		"trailWidth":1,
 		"trailChance": 1,
