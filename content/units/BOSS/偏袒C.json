@@ -333,7 +333,7 @@
 			"cone": 360},
 			"despawnEffect":"none",
 			"speed":8,
-			"lifetime":8,
+			"lifetime":10,
 			"pierceArmor": true,
 			"hittable":false,
 			"absorbable":false,

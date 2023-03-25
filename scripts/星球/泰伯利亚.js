@@ -87,10 +87,10 @@ SFlib.addToResearch(中央盆地, {
 
 const 第五战区 = new SectorPreset("第五战区", TBLY, 5);
 第五战区.description = "第五军团遭到了敌人的猛烈反扑，但敌人不全力进攻，只拖延时间的行为及其反常。有大批机械化部队扑向这里，迅速解决敌人继续推进。\n[red]我们只有一次机会！";
-第五战区.difficulty = 10;
+第五战区.difficulty = 12;
 第五战区.alwaysUnlocked = false;
 第五战区.addStartingItems = true;
-第五战区.captureWave = 200;
+第五战区.captureWave = 100;
 第五战区.localizedName = "第五战区";
 exports.第五战区 = 第五战区;
 SFlib.addToResearch(第五战区, {

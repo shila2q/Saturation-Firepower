@@ -118,6 +118,7 @@
 				"killShooter": true,
 				"splashDamage": 22300,
 				"splashDamageRadius": 225,
+				"collides":false,
 				"pierce": true,
 				"pierceBuilding": true,
 				"pierceArmor": true,
