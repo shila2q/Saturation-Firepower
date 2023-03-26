@@ -13,7 +13,7 @@
 	"hasItems": true,
 	"craftTime": 80,
 	"consumes": {
-	"power": 1.5,
+	"power": 2,
 	"items": {
 		"items": [
 	{ "item": "coal", "amount": 5 },

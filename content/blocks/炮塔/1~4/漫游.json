@@ -79,7 +79,7 @@
             "colorTo": "FEEBB3FF"}
             ]}},
 	"consumes": {
-    "power":12,
+    "power":15,
 	"coolant":{"amount":0.3,"optional":true}  },
 	"reload": 20,
 	"rotateSpeed": 6,

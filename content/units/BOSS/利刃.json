@@ -464,7 +464,8 @@
 			"shootCone": 360,
 			"bullet": {
 				"type": "MissileBulletType",
-				"damage": 75,
+				"damage": 175,
+				"pierceArmor":true,
 				"status": "碎解",
 				"statusDuration": 60,
 				"homingRange": 300,

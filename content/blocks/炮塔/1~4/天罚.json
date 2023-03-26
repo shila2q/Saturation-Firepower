@@ -13,7 +13,7 @@
 	"hasPower":true,
 	"damage": 25,
 	"consumes": {
-	"power":10
+	"power":15
 	},
 	  "requirements": [
 	    { "item": "lead", "amount":400 },

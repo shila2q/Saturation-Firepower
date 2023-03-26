@@ -21,7 +21,7 @@
             ]
     },
 	"consumes": {
-    "power":8,
+    "power":10,
     "items": {	 "items": [
  { "item": "silicon", "amount": 3},
  { "item": "titanium", "amount": 3}]

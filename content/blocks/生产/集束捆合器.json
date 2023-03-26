@@ -9,7 +9,7 @@
 	"craftTime": 40,
 	"itemCapacity": 15,
 	"consumes": {
-    "power":2,
+    "power":2.333,
     "items": {	 "items": [
  { "item": "pyratite", "amount": 1},
  { "item": "blast-compound", "amount": 5}

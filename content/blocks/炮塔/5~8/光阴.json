@@ -154,7 +154,7 @@
     }
     },
     "consumes": {
-        "power": 36,
+        "power": 46,
         "coolant": {
             "amount": 1.75,
             "optional": true

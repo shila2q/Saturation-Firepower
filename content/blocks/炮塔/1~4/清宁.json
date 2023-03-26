@@ -279,7 +279,7 @@
 		"colorTo": "BFFFDB88"
 	},
 	"consumes": {
-		"power": 20,
+		"power": 30,
 		"coolant": {
 			"amount": 1,
 			"optional": true

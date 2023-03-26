@@ -32,7 +32,7 @@
     },
     "craftTime": 60,
     "consumes": {
-        "power": 6.5,
+        "power": 8,
         "items": {
             "items": [
                 {

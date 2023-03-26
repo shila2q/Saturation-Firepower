@@ -7,7 +7,7 @@
 	"canDrown": false,
 	"armor": 106,
 	"speed": 0.6,
-	"rotateSpeed": 1.04,
+	"rotateSpeed": 1.14,
 	"baseRotateSpeed": 1.38,
 	"health": 480600,
 	"canBoost": true,
@@ -34,8 +34,7 @@
 	},
 	"abilities": [{
 		"type":"RegenAbility",
-		"percentAmount":0.0003,
-		"amount":220
+		"amount":60
 	}],
 	"weapons": [
 		{
@@ -185,11 +184,9 @@
 				"reflectable":false,
 				"type": "LiquidBulletType",
 				"layer":98,
-				"puddles":3,
 				"puddleRange":22,
 				"puddleAmount":10,
 				"puddleSize": 16,
-				"puddleLiquid":"硝化重油",
 				"hitEffect": {
 					"type": "ParticleEffect",
 					"particles": 3,
@@ -211,7 +208,9 @@
 				"speed": 12,
 				"knockback": 1.3,
 				"absorbable": false,
-				"damage": 1.25
+				"damage": 3.86,
+				"splashDamage": 28,
+				"splashDamageRadius": 26
 			}
 		},
 		{
@@ -352,10 +351,10 @@
 				"absorbable": false,
 				"reflectable":false,
 				"status": "殁火",
-				"statusDuration": 660,
+				"statusDuration": 4800,
 				"speed": 4,
 				"drag": -0.0175,
-				"lifetime": 96,
+				"lifetime": 126,
 				"hitShake": 25,
 				"width": 23,
 				"height": 23,
@@ -514,6 +513,65 @@
 					"status": "burning",
 					"statusDuration": 600,
 					"makeFire": true
+				},
+				"fragBullets":45,
+				"fragLifeMin":0.6,
+				"fragLifeMax":1.3,
+				"fragBullet":{
+					"type": "BasicBulletType",
+					"splashDamage": 88,
+					"splashDamageRadius": 36,
+					"makeFire": true,
+					"collides":false,
+					"absorbable":false,
+					"pierce": true,
+					"status": "tarred",
+					"statusDuration": 480,
+					"speed": 3.5,
+					"lifetime": 64,
+					"hitShake": 0.5,
+					"width": 10,
+					"height": 10,
+					"sprite":"circle-bullet",
+					"frontColor":"FF5B5B",
+					"backColor":"FF5B5BAA",
+					"hitSound": "explosion",
+					"hitEffect":{
+						"type":"MultiEffect",
+						"effects":[
+						{"type": "ParticleEffect",
+							"particles":6,
+							"sizeFrom": 6,
+							"sizeTo": 0,
+							"length": 36,
+							"baseLength": 0,
+							"lifetime": 22,
+							"colorFrom": "FF5B5B",
+							"colorTo": "FF5B5BAA",
+							"cone": 360},
+						{
+							"type": "WaveEffect",
+							"lifetime": 9,
+							"sizeFrom": 0,
+							"sizeTo": 36,
+							"strokeFrom":8,
+							"strokeTo": 0,
+							"colorFrom": "FF5B5B",
+							"colorTo": "FF5B5B"
+						}
+						]},
+					"despawnEffect": "blastExplosion",
+					"bulletInterval": 0.3,
+					"intervalBullets": 1,
+					"intervalBullet": {
+						"type": "FireBulletType",
+						"speed": 8,
+						"lifetime": 8,
+						"damage": 28,
+						"status": "burning",
+						"statusDuration": 360,
+						"makeFire": true
+					}
 				}
 			}
 		}

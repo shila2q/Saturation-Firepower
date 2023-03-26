@@ -30,7 +30,7 @@
     {"type":"ShootAlternate",
 	"barrels":2,
 	"spread":15},
-	"consumes": {"power": 10,
+	"consumes": {"power": 11,
         "coolant":{"amount":0.5,"optional":true}  
                 },
 	"shootSound":"DD1",

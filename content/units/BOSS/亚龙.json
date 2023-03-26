@@ -20,7 +20,7 @@
 		"拆解","干扰","绝判","油蚀","崩溃",
 		"碎解","阳电","阴电","余热"
 	],
-	"health": 650000,
+	"health": 700000,
     "ammoCapacity": 99999,
 	"armor": 360,
 	"faceTarget": false,
@@ -111,7 +111,7 @@
 			"unit": "利刃",
 			"spawnX": 0,
 			"spawnY": 48,
-			"spawnTime": 12000
+			"spawnTime": 3600
 		},
 		{
 			"type": "UnitSpawnAbility",

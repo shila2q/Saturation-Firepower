@@ -25,7 +25,7 @@
 	"liquidCapacity": 60,
 	"craftTime": 7.5,
 	"consumes": {
-		"power": 3,
+		"power": 4,
 		"liquid": { "liquid": "硝化重油", "amount": 0.9 }
 	},
 	"requirements": [

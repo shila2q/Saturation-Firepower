@@ -6,7 +6,7 @@
 	"reload":6,
     "shootCone":360,
     "rotateSpeed":0,
-	"consumes": {"power":4},
+	"consumes": {"power":6},
 	"hasLiquids": false,
     "targetAir" :true,
 	"targetGround": true,

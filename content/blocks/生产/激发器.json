@@ -18,7 +18,7 @@
 		"colorFrom": "FFF1D2FF",
 		"colorTo": "FFD197FF"},
 	"consumes": {
-    "power":5,
+    "power":6,
     "items": {	 "items": [
  { "item": "phase-fabric", "amount": 1}	]
   } },

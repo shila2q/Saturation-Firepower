@@ -20,7 +20,7 @@
     "rotateSpeed":6}
     ]},
 	"consumes": {
-    "power":5,
+    "power":6,
     "liquid":{
 	"liquid":"oil",
 	"amount":0.2,

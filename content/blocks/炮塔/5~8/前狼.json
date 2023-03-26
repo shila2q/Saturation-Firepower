@@ -81,7 +81,7 @@
 			35,16.78,-30,
 			-16,24,0
 		]	},
-	"consumes": {"power": 24},
+	"consumes": {"power": 36},
 	"shootSound": "missileLarge",
 	"targetGround": false,
 	"targetAir": false,

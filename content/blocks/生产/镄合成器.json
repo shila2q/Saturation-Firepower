@@ -27,7 +27,7 @@
     },
 	"craftEffect":"smeltsmoke",
     "consumes": {
-	"power": 4,
+	"power": 5,
 	"items": {
 		"items": [
 	{"item": "graphite", "amount": 1},

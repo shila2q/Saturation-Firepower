@@ -50,7 +50,7 @@
     "coolantMultiplier": 0.5,
     "liquidCapacity": 80,
 	"consumes": {
-        "power":10,
+        "power":20,
         "coolant":{"amount":1,"optional":true}  
             },
     "inaccuracy": 30,

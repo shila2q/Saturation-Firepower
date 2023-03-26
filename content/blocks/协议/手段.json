@@ -237,29 +237,17 @@
 "lifetime": 120,
 "speed": 0}}}},
 "requirements": [
-{
-    "item": "lead",
-    "amount": 50
-},
-{
-    "item": "silicon",
-    "amount": 30
-},
-{
-    "item": "泰勒合金",
-    "amount": 15
-},
-{
-    "item": "三级协议",
-    "amount": 20
-}
+
+    "lead/50","silicon/30",
+    "纳米核/50",
+    "泰勒合金/50","三级协议/30"
     ],
 	"research": {
 		"parent": "战研",
 		"objectives": [
 			{
 				"type": "SectorComplete",
-				"preset": "雷鸣裂谷"
+				"preset": "第五战区"
 			}]},
     "category": "effect"
 }

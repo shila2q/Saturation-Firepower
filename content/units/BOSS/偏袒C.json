@@ -332,13 +332,13 @@
 			"colorTo": "EEC59100",
 			"cone": 360},
 			"despawnEffect":"none",
-			"speed":8,
+			"speed":4,
 			"lifetime":10,
 			"pierceArmor": true,
 			"hittable":false,
 			"absorbable":false,
-			"damage":45,
-			"splashDamage":218,
+			"damage":119,
+			"splashDamage":328,
 			"splashDamageRadius":35
 			}
 	}

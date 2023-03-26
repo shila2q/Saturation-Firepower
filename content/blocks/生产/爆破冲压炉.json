@@ -51,7 +51,7 @@
 	"hasItems": true,
 	"craftTime": 30,
 	"consumes": {
-	"power": 8,
+	"power": 10,
 	"items": {
 		"items": [
 	"blast-compound/1",

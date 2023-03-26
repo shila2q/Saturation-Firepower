@@ -16,7 +16,7 @@
             ]
     },
 	"consumes": {
-    "power":7.0,
+    "power":7.5,
     "liquid":{
 	"liquid":"oil",
 	"amount":0.3,

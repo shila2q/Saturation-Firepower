@@ -19,7 +19,7 @@
 	"craftEffect":"formsmoke",
     "updateEffect":"plasticburn",
 	"consumes": {
-    "power":6,
+    "power":7,
     "liquid":{
 	"liquid":"oil",
 	"amount":0.5,

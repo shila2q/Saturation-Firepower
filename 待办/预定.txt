@@ -26,31 +26,3 @@
 
 <强度按位次排序变化>
 <确保干碎>
-
-control enabled processor1 0 0 0 0
-fetch buildCount A @sharded 0 @饱和火力-战研
-jump 4 greaterThanEq A 2
-jump 1 lessThan A 2
-wait 600
-spawn @饱和火力-阔野 235 100 0 @sharded result
-wait 600
-spawn @饱和火力-阔野 14 96 0 @sharded 阔野
-status false 饱和火力-裂位标记 阔野 10
-ubind 阔野
-ucontrol move 235 96 0 0 0
-print "[orange]这里是支援位阔野3号舰\n我们侦测到不明大型目标靠近"
-message announce 3
-print "[orange]正在启动战争协议"
-message announce 3
-control enabled processor1 1 0 0 0
-wait 600
-spawn @饱和火力-阔野 21 96 0 @sharded result
-status false 饱和火力-裂位标记 阔野 10
-ubind 阔野
-ucontrol move 235 96 0 0 0
-wait 600
-spawn @饱和火力-阔野 21 103 0 @sharded result
-status false 饱和火力-裂位标记 阔野 10
-ubind 阔野
-ucontrol move 235 96 0 0 0
-setblock block @stone-wall @thisx @thisy @derelict 0

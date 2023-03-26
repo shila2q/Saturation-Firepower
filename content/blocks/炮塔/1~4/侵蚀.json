@@ -92,7 +92,7 @@
 "colors":["7CF38990", "97FFA880", "FFFFFF"]
 	},
 	"consumes": {
-		"power":30,
+		"power":48,
 	"coolant":{"amount":2.5,"optional":true}  
 		},
 	"shootDuration": 250,

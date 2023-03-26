@@ -39,7 +39,7 @@
         "colorTo": "97FFA8"
     },
 	"consumes":{
-	"power": 6,
+	"power": 7.35,
 	"items": {"items": [
 	{ "item": "纳米核", "amount": 2}	]	},
 	"liquid": 

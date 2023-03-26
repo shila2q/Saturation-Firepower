@@ -30,7 +30,7 @@
 		"colorTo": "25C9AB",
 		"cone":360 },
 	"consumes": {
-    "power":7,
+    "power":8,
     "items": {
 	"items": [
 	{ "item": "硅钢", "amount": 1},

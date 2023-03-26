@@ -30,7 +30,7 @@
     ]}
         ]
     },
-	"consumes": {"power":2},
+	"consumes": {"power":4},
 	"ammoUseEffect":"casing2Double",
 	"shootSound":"spark",
 	"inaccuracy": 0,
