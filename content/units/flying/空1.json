@@ -1,7 +1,6 @@
 {
 	"type": "flying",
 	"name": "多云",
-	"description": "攻击附近所有敌人。发射能量弹与爆破弹",
 	"speed": 2.4,	
 	"drag":0.05,"accel":0.1,
 	"rotateSpeed":10,
@@ -13,6 +12,7 @@
 	"buildSpeed": 0.25,
 	"flying": true,
 	"faceTarget": true,
+	"drawMinimap":false,
 	"health": 200,
 	"armor":2,
 	"engineOffset": 8,

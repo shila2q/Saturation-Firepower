@@ -4,7 +4,7 @@
 	"health": 18800,
 	"armor":  22,
 	"size": 4,
-	"reload": 160,
+	"reload": 120,
 	"range": 620,
 	"recoilTime": 50,
 	"recoil": 2.25,

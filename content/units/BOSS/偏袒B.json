@@ -187,6 +187,7 @@
 	"strokeFrom":48,
 	"strokeTo":16,
 	"layer":60,
+	"interp": "circleOut",
 	"colorFrom":"FFFFFF",
 	"colorTo": "FFFFFF10"}
 	]}

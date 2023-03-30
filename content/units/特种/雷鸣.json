@@ -12,7 +12,6 @@
 	},
 	"ammoCapacity": 300,
 	"hitSize": 30,
-	"flying": true,
 	"health": 1800,
 	"armor": 22,
 	"engineOffset": 13,

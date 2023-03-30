@@ -63,7 +63,7 @@
 		"angleOffset": -120}
 	],
 	"weapons":[
-	{"name":"偏袒3.3",
+	{"name":"偏袒3.1",
 	"reload": 15,
 	"shootStatusDuration":20,
 	"shootStatus":"强攻",

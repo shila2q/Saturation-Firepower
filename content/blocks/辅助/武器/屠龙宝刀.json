@@ -77,6 +77,7 @@
                 "lifetime": 100,
                 "sizeFrom": 50,
                 "sizeTo": 4000,
+                "interp": "circleOut",
                 "strokeFrom": 160,
                 "strokeTo": 0,
                 "colorFrom": "BFFFDB",
@@ -98,7 +99,7 @@
             }
         ]
     },
-    "smokeEffect": "bigShockwave",
+    "smokeEffect": "none",
     "shootType": {
         "type": "BasicBulletType",
         "absorbable": true,
@@ -190,7 +191,8 @@
                         "lifetime": 10,
                         "sizeFrom": 8,
                         "sizeTo": 125,
-                        "strokeFrom": 8,
+                        "interp": "circleOut",
+                        "strokeFrom": 12,
                         "strokeTo": 0,
                         "colorFrom": "BFFFDB",
                         "colorTo": "BFFFDB"}
@@ -527,6 +529,7 @@
                     "lifetime": 45,
                     "startDelay":480,
                     "sizeFrom": 0,
+                    "interp": "circleOut",
                     "sizeTo": 1200,
                     "strokeFrom": 35,
                     "strokeTo": 0,
@@ -536,6 +539,7 @@
                     "lifetime": 45,
                     "startDelay":510,
                     "sizeFrom": 0,
+                    "interp": "circleOut",
                     "sizeTo": 1200,
                     "strokeFrom": 35,
                     "strokeTo": 0,
@@ -545,6 +549,7 @@
                     "lifetime": 45,
                     "startDelay":540,
                     "sizeFrom": 0,
+                    "interp": "circleOut",
                     "sizeTo": 1200,
                     "strokeFrom": 35,
                     "strokeTo": 0,

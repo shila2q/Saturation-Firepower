@@ -414,11 +414,12 @@
 						},
 						{
 							"type": "WaveEffect",
-							"lifetime": 15,
+							"lifetime": 36,
 							"sizeFrom": 8,
-							"sizeTo": 400,
+							"sizeTo": 500,
 							"strokeFrom": 16,
 							"strokeTo": 0,
+							"interp": "circleOut",
 							"colorFrom": "FF5B5BFF",
 							"colorTo": "FF5B5BFF"
 						},

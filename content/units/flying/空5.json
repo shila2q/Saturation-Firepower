@@ -12,16 +12,16 @@
 	"drag": 0.05,
 	"accel": 0.04,
 	"flying": true,
-	"engineOffset": 12,
+	"engineOffset": 18,
 	"engineSize": 15,
 	"hitSize": 59,
 	"faceTarget": true,
 	"lowAltitude": true,
-	"health": 43200,
+	"health": 42800,
 	"armor": 18,
-	"buildSpeed": 5,
+	"buildSpeed": 3.85,
 	"rotateSpeed": 1.2,
-	"itemCapacity": 100,
+	"immunities":["shocked","electrified","干扰"],
 	"abilities": [
 		{
 			"type": "ForceFieldAbility",
@@ -116,13 +116,14 @@
 						},
 						{
 							"type": "WaveEffect",
-							"lifetime": 15,
+							"lifetime": 22,
 							"sizeFrom": 8,
-							"sizeTo": 80,
-							"strokeFrom": 3,
+							"sizeTo": 60,
+							"strokeFrom": 8,
 							"strokeTo": 0,
+							"interp":"circleOut",
 							"colorFrom": "585858",
-							"colorTo": "FFFFFF"
+							"colorTo": "c0ecff"
 						}
 					]
 				},
@@ -208,13 +209,14 @@
 						},
 						{
 							"type": "WaveEffect",
-							"lifetime": 15,
+							"lifetime": 22,
 							"sizeFrom": 8,
-							"sizeTo": 80,
-							"strokeFrom": 3,
+							"sizeTo": 60,
+							"strokeFrom": 8,
 							"strokeTo": 0,
+							"interp":"circleOut",
 							"colorFrom": "585858",
-							"colorTo": "FFFFFF"
+							"colorTo": "c0ecff"
 						}
 					]
 				},
@@ -302,7 +304,7 @@
 					"collides": false,
 					"hittable": false,
 					"absorbable": false,
-					"buildingDamageMultiplier":0.68,
+					"buildingDamageMultiplier":0.58,
 					"hitEffect": {
 						"type": "MultiEffect",
 						"effects": [

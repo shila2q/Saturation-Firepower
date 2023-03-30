@@ -1,6 +1,7 @@
 {
 	"type": "legs",
 	//"hidden":true,
+	"drawMinimap":false,
 	"lockLegBase": true,
 	"legCount": 6,
 	"legLength": 35,
@@ -16,7 +17,6 @@
 	"legSplashRange": 15,
 	"name": "偏袒",
 	"description": "精英机动辅助部队。跨越大多数地形修复附近友方单位。\n携带[stat]主动式[white]三叠内爆弹，[red]切莫使其接近防线！！！",
-	"details": "信息缺失！",
 	"rotateSpeed": 1.88,
 	"speed": 1.05,
 	"hitSize": 33,
@@ -212,6 +212,17 @@
 							"colorFrom": "FF5B5B",
 							"colorTo": "FF5B5B",
 							"cone": 360
+						},
+						{
+							"type": "WaveEffect",
+							"lifetime": 96,
+							"sizeFrom": 0,
+							"sizeTo": 250,
+							"strokeFrom": 30,
+							"strokeTo": 0,
+							"interp": "circleOut",
+							"colorFrom": "EEC591",
+							"colorTo": "FF5B5B"
 						},
 						{
 							"type": "WaveEffect",

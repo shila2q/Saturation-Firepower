@@ -53,10 +53,11 @@
     "hitEffect":{
         "type": "WaveEffect",
         "lifetime": 30,
-        "sizeFrom": 160,
+        "sizeFrom": 0,
         "sizeTo": 160,
-        "strokeFrom": 2,
+        "strokeFrom": 8,
         "strokeTo": 0,
+		"interp": "circleOut",
         "colorFrom": "76D081FF",
         "colorTo": "76D081FF"
 	   },

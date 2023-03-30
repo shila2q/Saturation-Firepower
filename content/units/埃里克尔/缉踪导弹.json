@@ -61,6 +61,7 @@
 	    "bullet":{
 		"ammoMultiplier": 1,
 	"type":"FlakBulletType",
+	"instantDisappear":true,
 	"killShooter":true,
     "splashDamageRadius": 50,
     "splashDamage": 35,

@@ -5,7 +5,7 @@
 	"cost":6,
 	"color": "DEDEDEFF",
 	"alwaysUnlocked":false,   
-	"hardness":"7",
+	"hardness":7,
 	"healthScaling": 1.8,
 	"radioactivity": 1.5,
 	"explosiveness": 0,

@@ -38,6 +38,7 @@
     "generateEffect": "generatespark",
     "consumes": {
         "itemFlammable":{},
+        "itemExplode":{},
         "liquid": "water/0.8"
     },
     "requirements": [
