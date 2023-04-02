@@ -2,9 +2,7 @@
 
 [Saturation-Firepower]
 这里是饱和火力模组官方Git存储位置
-Here is the official Git storage location of the [Saturation-Firepower] module for Mindustry
-!\n[Uploading logo.png…]()
-
+Here is the official Git storage location of the [Saturation-Firepower] module for Mindustry!
 # SF有什么—What we have？
 200+新方块，囊括各方各面！
 200+ new bolcks,embracing all sides!
