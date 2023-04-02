@@ -16,7 +16,7 @@
     "explosionShakeDuration":500,
     "explosionRadius": 1600,
     "explosionDamage": 80000,
-	"buildVisibility":"campaignOnly",
+	//"buildVisibility":"campaignOnly",
     "lightColor": "c0ecff",
     "explodeSound":"explosionbig",
     "explodeEffect": {

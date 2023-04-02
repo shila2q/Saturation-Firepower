@@ -1,18 +1,27 @@
 {
-    "name":"硅钢墙",
+	"name":"硅钢墙",
 	"health":600 ,
-    "description": "拥有优良的储电性能，可辅助能量节点链接并为前线储存一定能量。",
-    "requirements": [
-    { "amount": 4, "item": "硅钢" },
-    { "amount": 2, "item": "lead" }
-    ],
-    "consumes": {
-    	"powerBuffered": 1000
-    },	
-    "emptyLightColor":"f8c266",
+	"description": "拥有优良的储电性能，可辅助能量节点链接并为前线储存一定能量。",
+	"requirements": [
+	{ "amount": 4, "item": "硅钢" },
+	{ "amount": 2, "item": "lead" }
+	],
+	"drawer":{
+		"type":"DrawMulti",
+		"drawers":[
+			"DrawDefault",
+			"DrawPower",
+			{"type":"DrawRegion",
+			"suffix":"-top"}
+			]
+	},
+	"consumes": {
+		"powerBuffered": 1000
+	},	
+	"emptyLightColor":"f8c266",
 	"fullLightColor":"fb9567",
-    "size": 1,
-    "type": "Battery",
+	"size": 1,
+	"type": "Battery",
 	"category": "defense",
 	"research": "plastanium-wall-large"
 }

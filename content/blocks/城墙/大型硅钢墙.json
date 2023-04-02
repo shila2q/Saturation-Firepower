@@ -1,17 +1,26 @@
 {
-    "name":"大型硅钢墙",
+	"name":"大型硅钢墙",
 	"health":2400 ,
-    "description": "拥有优良的储电性能，可辅助能量节点链接并为前线储存一定能量。占据多个方块。",
-    "requirements": [
+	"description": "拥有优良的储电性能，可辅助能量节点链接并为前线储存一定能量。占据多个方块。",
+	"requirements": [
   { "amount": 16, "item": "硅钢" },
   { "amount": 8, "item": "lead" }
-    ],
-    "consumes": 
-    {"powerBuffered": 4000},
+	],
+	"drawer":{
+		"type":"DrawMulti",
+		"drawers":[
+			"DrawDefault",
+			"DrawPower",
+			{"type":"DrawRegion",
+			"suffix":"-top"}
+			]
+	},
+	"consumes": 
+	{"powerBuffered": 4000},
 	"emptyLightColor":"f8c266",
 	"fullLightColor":"fb9567",
-    "size": 2,
-    "type": "Battery",
+	"size": 2,
+	"type": "Battery",
 	"category": "defense",
 	"research": "硅钢墙"
 }

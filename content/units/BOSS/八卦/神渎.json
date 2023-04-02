@@ -34,7 +34,7 @@
 	},
 	"abilities": [{
 		"type":"RegenAbility",
-		"amount":60
+		"amount":180
 	}],
 	"weapons": [
 		{
@@ -52,10 +52,21 @@
 			"shootSound": "flame",
 			"alternate": true,
 			"ejectEffect": "casing4",
-			"shootCone": 15,
+			"shootCone": 35,
 			"shoot": {
-				"shots": 2
-			},
+				"type":"ShootMulti",
+				"source":{},
+				"dest":[
+			{"type":"ShootHelix",
+			"scl":8,
+			"mag":4,
+			"shots":3},
+			{"type":"ShootHelix",
+			"scl":8,
+			"mag":4,
+			"firstShotDelay":3,
+			"shots":3}
+					]},
 			"bullet": {
 				"type": "BulletType",
 				"lifetime": 12,
@@ -166,15 +177,15 @@
 			"name": "神渎2",
 			"reload": 0.6,
 			"recoil": 2,
-			"x": 52,
+			"x": 51,
 			"y": 0,
-			"shootY": 16,
+			"shootY": 48,
 			"rotate": false,
 			"top": false,
 			"inaccuracy": 8,
 			"shootSound": "flame",
 			"alternate": true,
-			"shootCone": 15,
+			"shootCone": 35,
 			"xRand":6,
 			"shoot": {
 				"shots": 6,
