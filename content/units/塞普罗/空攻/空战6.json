@@ -10,7 +10,7 @@
 	"flying": true,
 	"engineOffset": 46,
 	"engineSize": 10,
-	"hitSize": 68,
+	"hitSize": 70,
 	"faceTarget": true,
 	"lowAltitude": true,
 	"health": 160000,
@@ -184,7 +184,7 @@
 			"cooldownTime": 200,
 			"bullet": {
 				"type": "ContinuousLaserBulletType",
-				"damage": 120,
+				"damage": 240,
 				"width": 9,
 				"length": 300,
 				"colors": [
@@ -205,7 +205,7 @@
 					"colorTo": "D86E56FF",
 					"cone": 80
 				},
-				"lifetime": 290,
+				"lifetime": 145,
 				"hitShake": 2,
 				"despawnEffect": "smokeCloud",
 				"smokeEffect": "none",

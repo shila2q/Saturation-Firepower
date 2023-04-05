@@ -26,6 +26,7 @@
 	"targetAir":true,
 	"canDrown":false,
 	"drownTimeMultiplier": 99999,
+	"groundLayer": 89,
 	"health": 560000,
 	"armor": 240,
 	"rotateSpeed": 0.8,

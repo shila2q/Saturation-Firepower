@@ -1,6 +1,6 @@
 {
 "name":"碎解",
-    "damage":5,
+    "damage":9,
 	"speedMultiplier":0.8,
 	"effectChance":0.8,
 	"effect":{	"type": "ParticleEffect",

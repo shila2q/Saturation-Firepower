@@ -82,6 +82,7 @@
     "recoil":2,
     "top":true,
     "rotationLimit":50,
+    "shootCone":41,
     "rotate": true,
     "rotateSpeed":6,
     "shootSound": "spark",

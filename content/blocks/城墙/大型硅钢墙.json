@@ -8,17 +8,10 @@
 	],
 	"drawer":{
 		"type":"DrawMulti",
-		"drawers":[
-			"DrawDefault",
-			"DrawPower",
-			{"type":"DrawRegion",
-			"suffix":"-top"}
-			]
+		"drawers":["DrawDefault"]
 	},
 	"consumes": 
 	{"powerBuffered": 4000},
-	"emptyLightColor":"f8c266",
-	"fullLightColor":"fb9567",
 	"size": 2,
 	"type": "Battery",
 	"category": "defense",

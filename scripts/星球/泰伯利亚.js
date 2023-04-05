@@ -48,7 +48,7 @@ const 荒芜矿区 = new SectorPreset("荒芜矿区", TBLY, 2);
 荒芜矿区.difficulty = 2;
 荒芜矿区.alwaysUnlocked = false;
 荒芜矿区.addStartingItems = true;
-荒芜矿区.captureWave = 120;
+荒芜矿区.captureWave = 100;
 荒芜矿区.localizedName = "荒芜矿区";
 exports.荒芜矿区 = 荒芜矿区;
 SFlib.addToResearch(荒芜矿区, {
@@ -59,7 +59,7 @@ SFlib.addToResearch(荒芜矿区, {
 
 const 雷鸣裂谷 = new SectorPreset("雷鸣裂谷", TBLY, 62);
 雷鸣裂谷.description = "这里地形狭长，资源丰富，是敌人的巨浪合金一大产地。\n一支先遣部队已经抵达，摧毁防御工事并占峡谷。\n为以后的战斗准备充足的合金供应";
-雷鸣裂谷.difficulty = 8;
+雷鸣裂谷.difficulty = 6;
 雷鸣裂谷.alwaysUnlocked = false;
 雷鸣裂谷.addStartingItems = true;
 雷鸣裂谷.captureWave = 0;
