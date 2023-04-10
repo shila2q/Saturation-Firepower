@@ -10,16 +10,16 @@
 	"craftTime": 85,
 	"itemCapacity": 18,
 	"drawer":{
-        "type":"DrawMulti",
-        "drawers":[
-            "DrawDefault",
-            "DrawFlame"
-            ]
-    },
+		"type":"DrawMulti",
+		"drawers":[
+			"DrawDefault",
+			"DrawFlame"
+			]
+	},
 	"craftEffect":"smeltsmoke",
 	"consumes": {
-    "power":7.5,
-    "items": {"items": [
+	"power":7.5,
+	"items": {"items": [
 { "item": "scrap", "amount": 6},
 { "item": "silicon", "amount":3}	]
   }

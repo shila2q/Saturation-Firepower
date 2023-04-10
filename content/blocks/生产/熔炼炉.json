@@ -9,10 +9,10 @@
 	"hasItems": true,
 	"craftTime": 15,
 	"itemCapacity": 20,
-    "liquidCapacity": 60,
-    "drawer":{
-        "type":"DrawMulti",
-	    "drawers":[
+	"liquidCapacity": 60,
+	"drawer":{
+		"type":"DrawMulti",
+		"drawers":[
 			"DrawDefault",
 	{"type":"DrawLiquidRegion",
 	"drawLiquid":"slag",
@@ -20,10 +20,10 @@
 	]},
 	"updateEffect": "smeltsmoke",
 	"consumes": {
-    "power":2,
-    "items": {
+	"power":2,
+	"items": {
 	 "items": [
-	    { "item": "scrap", "amount": 2}
+		{ "item": "scrap", "amount": 2}
 	]
   }
  },

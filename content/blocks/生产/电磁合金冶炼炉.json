@@ -10,17 +10,17 @@
 	"craftTime": 70,
 	"itemCapacity": 30,
 	"drawer":{
-        "type":"DrawMulti",
-        "drawers":[
-        "DrawDefault",
-        {"type":"DrawFlame",
+		"type":"DrawMulti",
+		"drawers":[
+		"DrawDefault",
+		{"type":"DrawFlame",
 		"flameRadius": 0,
 		"flameRadiusIn": 0,
 		"flameRadiusMag": 0,
 		"flameRadiusInMag": 0,
 		"flameColor":"F2E770"}
-        ]
-    },
+		]
+	},
 	"craftEffect":{
 		"type": "ParticleEffect",
 		"particles": 4,
@@ -29,13 +29,13 @@
 		"region":"饱和火力-菱形",
 		"lifetime": 25,
 		"sizeFrom": 10,
-        "sizeTo": 0,
+		"sizeTo": 0,
 		"colorFrom": "F2E77050",
 		"colorTo": "F2E770",
 		"cone":360 },
 	"consumes": {
-    "power":9,
-    "items": {"items": [
+	"power":9,
+	"items": {"items": [
 	"copper/8","lead/10","silicon/8","titanium/6"
 		]
   }

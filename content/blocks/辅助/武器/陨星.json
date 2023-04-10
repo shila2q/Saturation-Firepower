@@ -6,7 +6,7 @@
 	"health": 17650,
 	"size": 5,
 	"reload": 980,
-    "fogRadiusMultiuplier":0.3,
+	"fogRadiusMultiuplier":0.3,
 	"range": 1000,
 	"maxAmmo": 20,
 	"recoilTime": 180,
@@ -64,7 +64,7 @@
 	"requirements": [
 		"镄/25000","blast-compound/50000"
 	],
-    //"buildVisibility": "sandboxOnly",
+	//"buildVisibility": "sandboxOnly",
 	"category": "turret",
 	"research": "陨星"
 }

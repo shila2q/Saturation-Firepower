@@ -14,12 +14,12 @@
 	"targetGround":false,
 	"abilities": [
 	{ "type": "StatusFieldAbility",
-    "duration": 60,
-    "reload": 120,
-    "range": 1,
-    "applyEffect":"none",
-    "activeEffect":"none",
-    "effect":"拆解"  }	  ],
+	"duration": 60,
+	"reload": 120,
+	"range": 1,
+	"applyEffect":"none",
+	"activeEffect":"none",
+	"effect":"拆解"  }	  ],
 	"ammoType":{
 	"type":"PowerAmmoType",
 	"totalPower":100},
@@ -108,7 +108,7 @@
 		"trailWidth":2,
 		"trailColor":"c0ecff",
 		"drag":-0.002,
-	    "width": 4,"height": 4,
-	    "speed": 9,	"lifetime": 60} 	}
-	    ]
+		"width": 4,"height": 4,
+		"speed": 9,	"lifetime": 60} 	}
+		]
 }

@@ -7,19 +7,19 @@
 	"itemCapacity": 14,
 	"size": 3,
 	"drawer":{
-	    "type":"DrawMulti",
-	    "drawers":[
-	    {
-	    "type":"DrawRegion",
-	    "suffix":"-bottom"
-	    },
-	    {
-	       "type":"DrawLiquidTile",
-	    "drawLiquid":"cryofluid"
-	    },
-	    "DrawDefault"
+		"type":"DrawMulti",
+		"drawers":[
+		{
+		"type":"DrawRegion",
+		"suffix":"-bottom"
+		},
+		{
+		   "type":"DrawLiquidTile",
+		"drawLiquid":"cryofluid"
+		},
+		"DrawDefault"
 	]},
-    "hasItems": true,
+	"hasItems": true,
 	"hasLiquids": true,
 	"outputsLiquid": true,
 	"hasPower": true,

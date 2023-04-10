@@ -132,7 +132,7 @@
 	"shootCone":120,
 	"recoil": 8,
 	"recoilTime": 178,
-    "velocityRnd": 0.12,
+	"velocityRnd": 0.12,
 	"shootType": {
 		"type": "EmpBulletType",
 		"timeIncrease":1,
@@ -153,7 +153,7 @@
 		"damage": 18,
 		"splashDamageRadius": 85,
 		"splashDamage": 20,
-        "buildingDamageMultiplier":0.18,
+		"buildingDamageMultiplier":0.18,
 		"radius":85,
 		"ammoMultiplier": 1,
 		"sprite": "circle-bullet",
@@ -233,10 +233,10 @@
 		{"type": "ParticleEffect",
 		"particles": 2,
 		"line": true,
-        "lenFrom": 43,
-        "lenTo":0,
-        "strokeFrom": 3.36,
-        "strokeTo": 0,
+		"lenFrom": 43,
+		"lenTo":0,
+		"strokeFrom": 3.36,
+		"strokeTo": 0,
 		"interp": "pow10Out",
 		"length": 93,
 		"baseLength": 0,
@@ -258,16 +258,16 @@
 	"consumes": {
 		"power": 360,
 		"liquid": {
-            "liquid": "cryofluid",
-            "amount": 3.5
+			"liquid": "cryofluid",
+			"amount": 3.5
 	}},
 	"liquidCapacity": 60,
 	"reload": 230,
 	"rotateSpeed": 1.32,
 	"range": 862,
 	"category": "turret",
-    "research": {"parent": "清宁",
-    "objectives": [
+	"research": {"parent": "清宁",
+	"objectives": [
 		{"type": "SectorComplete","preset": "第五战区"}
 		]},
 	"requirements": [

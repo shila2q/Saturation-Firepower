@@ -5,7 +5,7 @@
 	"health": 80,
 	"range": 36,
 	"liquidCapacity": 32,
-    "consumes": {"power": 0.5},
+	"consumes": {"power": 0.5},
 	"requirements": [
 	{ "item": "metaglass", "amount": 20 },
 	{ "item": "silicon", "amount": 10 },

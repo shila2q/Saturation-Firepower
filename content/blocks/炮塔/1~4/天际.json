@@ -1,6 +1,6 @@
 {
-    "type": "PowerTurret",
-    "name": "天际",
+	"type": "PowerTurret",
+	"name": "天际",
     "description": "短暂蓄力后向空中敌人发射强力的定向贯彻能量束，穿透护盾与敌人。",
     "targetAir": true,
     "targetGround": false,

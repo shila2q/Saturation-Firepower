@@ -1,66 +1,66 @@
 {
-    "type": "PowerTurret",
-    "name": "破晓",
-    "description": "脆弱的激光发生器，向指定方向发射一道爆破能量束，需要时间充能",
-    "details": "一道光，划破夜空。多门破晓射击时的光芒足以照亮天下，同时会给指挥系统带来极大负担",
-    "targetAir": true,
-    "targetGround": true,
-    "health": 2250,
-    "size": 5,
-    "accurateDelay": false,
-    "moveWhileCharging": false,
-    "shake": 15,
-    "inaccuracy": 0,
-    "recoil": 5,
-    "cooldownTime": 180,
-    "liquidCapacity": 180,
-    "canOverdrive": false,
-    "recoilTime": 120,
-    "shoot": {
-    "type": "ShootPattern",
-    "firstShotDelay": 80
-    },
-    "shootY": 10,
-    "coolantMultiplier": 0.5,
-    "heatColor": "FF4040",
-    "shootSound": "laserblast",
-    "shootEffect": {
-    "type": "WaveEffect",
-    "lifetime": 15,
-    "sizeFrom": 0,
-    "sizeTo": 200,
-    "strokeFrom": 3,
-    "strokeTo": 0,
-    "colorFrom": "FFFFFF",
-    "colorTo": "ffffff"
-    },
-    "chargeSound": "lasercharge",
-    "shootType": {
-    "type": "LaserBulletType",
-    "lightningSpacing":80,
+	"type": "PowerTurret",
+	"name": "破晓",
+	"description": "脆弱的激光发生器，向指定方向发射一道爆破能量束，需要时间充能",
+	"details": "一道光，划破夜空。多门破晓射击时的光芒足以照亮天下，同时会给指挥系统带来极大负担",
+	"targetAir": true,
+	"targetGround": true,
+	"health": 2250,
+	"size": 5,
+	"accurateDelay": false,
+	"moveWhileCharging": false,
+	"shake": 15,
+	"inaccuracy": 0,
+	"recoil": 5,
+	"cooldownTime": 180,
+	"liquidCapacity": 180,
+	"canOverdrive": false,
+	"recoilTime": 120,
+	"shoot": {
+	"type": "ShootPattern",
+	"firstShotDelay": 80
+	},
+	"shootY": 10,
+	"coolantMultiplier": 0.5,
+	"heatColor": "FF4040",
+	"shootSound": "laserblast",
+	"shootEffect": {
+	"type": "WaveEffect",
+	"lifetime": 15,
+	"sizeFrom": 0,
+	"sizeTo": 200,
+	"strokeFrom": 3,
+	"strokeTo": 0,
+	"colorFrom": "FFFFFF",
+	"colorTo": "ffffff"
+	},
+	"chargeSound": "lasercharge",
+	"shootType": {
+	"type": "LaserBulletType",
+	"lightningSpacing":80,
 	"lightningLength":15,
 	"lightningDelay":1.1,
 	"lightningLengthRand":10,
 	"lightningAngleRand":80,
 	"lightningDamage":120,
-    "lightningColor": "25C9ABFF",
-    "length": 40000,
-    "width": 40,
-    "sideAngle": 30,
-    "sideWidth": 2,
-    "sideLength": 400,
-    "damage": 2048,
-    "lifetime": 90,
-    "collidesAir": true,
-    "splashDamageRadius": 35,
-    "splashDamage": 428,
-    "ammoMultiplier": 1,
-    "colors": ["25C9AB80","25C9ABFF","FFFFFF"],
-    "smokeEffect": "smokeCloud",
-    "chargeEffect": {
+	"lightningColor": "25C9ABFF",
+	"length": 40000,
+	"width": 40,
+	"sideAngle": 30,
+	"sideWidth": 2,
+	"sideLength": 400,
+	"damage": 2048,
+	"lifetime": 90,
+	"collidesAir": true,
+	"splashDamageRadius": 35,
+	"splashDamage": 428,
+	"ammoMultiplier": 1,
+	"colors": ["25C9AB80","25C9ABFF","FFFFFF"],
+	"smokeEffect": "smokeCloud",
+	"chargeEffect": {
 "type": "MultiEffect",
 "effects": [
-    {
+	{
 "type": "WaveEffect",
 "lifetime": 80,
 "sizeFrom": 130,
@@ -69,8 +69,8 @@
 "strokeTo": 6,
 "colorFrom": "25C9ABFF",
 "colorTo": "BFFFDBFF"
-    },
-    {
+	},
+	{
 "type": "ParticleEffect",
 "particles": 35,
 "strokeFrom": 1,
@@ -84,8 +84,8 @@
 "colorFrom": "25C9ABFF",
 "colorTo": "BFFFDBFF",
 "cone": 360
-    },
-    {
+	},
+	{
 "type": "ParticleEffect",
 "particles": 1,
 "sizeFrom": 0,
@@ -96,8 +96,8 @@
 "colorFrom": "25C9ABFF",
 "colorTo": "BFFFDBFF",
 "cone": 360
-    },
-    {
+	},
+	{
 "type": "ParticleEffect",
 "particles": 1,
 "strokeFrom": 10,
@@ -112,57 +112,57 @@
 "colorFrom": "25C9AB80",
 "colorTo": "BFFFDB80",
 "cone": 0
-    }
+	}
 ]
-    },
-    "despawnEffect": "none",
-    "hitEffect": "none"
-    },
-    "consumes": {
-    "power": 70,
-    "coolant": {
+	},
+	"despawnEffect": "none",
+	"hitEffect": "none"
+	},
+	"consumes": {
+	"power": 70,
+	"coolant": {
 "amount": 1.5,
 "optional": true
-    }
-    },
-    "reload": 1000,
-    "rotateSpeed": 3,
-    "fogRadiusMultiuplier":0.3,
-    "range": 1600,
-    "category": "turret",
-    "research": "战研",
-    "requirements": [
-    {
+	}
+	},
+	"reload": 1000,
+	"rotateSpeed": 3,
+	"fogRadiusMultiuplier":0.3,
+	"range": 1600,
+	"category": "turret",
+	"research": "战研",
+	"requirements": [
+	{
 "item": "copper",
 "amount": 1800
-    },
-    {
+	},
+	{
 "item": "metaglass",
 "amount": 1500
-    },
-    {
+	},
+	{
 "item": "silicon",
 "amount": 1800
-    },
-    {
+	},
+	{
 "item": "硅钢",
 "amount": 1200
-    },
-    {
+	},
+	{
 "item": "surge-alloy",
 "amount": 800
-    },
-    {
+	},
+	{
 "item": "泰勒合金",
 "amount": 500
-    },
-    {
+	},
+	{
 "item": "二级协议",
 "amount": 50
-    },
-    {
+	},
+	{
 "item": "三级协议",
 "amount": 30
-    }
-    ]
+	}
+	]
 }

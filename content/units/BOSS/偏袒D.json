@@ -1,6 +1,5 @@
 {
 	"type": "legs",
-	//"hidden":true,
 	"drawMinimap":false,
 	"lockLegBase": true,
 	"legCount": 6,

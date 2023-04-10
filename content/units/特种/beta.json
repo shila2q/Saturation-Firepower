@@ -1,17 +1,17 @@
 {
 	"health": 220,
-    "mineSpeed": 7,
-    "mineTier": 2,
-    "buildSpeed": 1.25,  
-    "speed":4,
-    "faceTarget": false,
+	"mineSpeed": 7,
+	"mineTier": 2,
+	"buildSpeed": 1.25,  
+	"speed":4,
+	"faceTarget": false,
 	"weapons":[
 	{	"name": "B枪",	
 		"reload":15,
-        "x": 2.8,  "y": 1, 
-        "rotate": true,
-        "rotateSpeed":9,
-        "inaccuracy": 0,
+		"x": 2.8,  "y": 1, 
+		"rotate": true,
+		"rotateSpeed":9,
+		"inaccuracy": 0,
 		"shoot":{
 			"shots":3,
 			"shotDelay":3
@@ -23,10 +23,10 @@
 "buildingDamageMultiplier":0.01,
 "homingRange": 80,
 "homingPower": 0.1,
-	    "damage":11,	  
-	    "speed":3.5,
-	    "lifetime":80,
-	    "width":7,	 "height":10
+		"damage":11,	  
+		"speed":3.5,
+		"lifetime":80,
+		"width":7,	 "height":10
 	}	}
 	]
 }

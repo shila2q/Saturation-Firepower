@@ -29,7 +29,7 @@
 		},
 	"requirements":[
 	"lead/200","silicon/240","硅钢/70","plastanium/85","泰勒合金/40"
-	    ],
+		],
 	"itemCapacity":1,
 	"research": "force-projector",
 	"category": "effect"

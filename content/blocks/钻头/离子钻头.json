@@ -18,11 +18,11 @@
 	"consumes": {
 	"power":3,
 	"liquid": {
-       "liquid": "water",
-       "amount": 0.1,
-       "booster": true,
-       "optional": true
-        }
+	   "liquid": "water",
+	   "amount": 0.1,
+	   "booster": true,
+	   "optional": true
+		}
 	},
 	"requirements": [
 		{ "item": "copper", "amount": 80 },

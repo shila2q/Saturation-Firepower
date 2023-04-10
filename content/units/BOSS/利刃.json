@@ -28,7 +28,7 @@
 		"spore-slowed","corroded","干扰","拆解"
 	],
 	"rotateSpeed": 1.2,
-    "ammoCapacity": 99999,
+	"ammoCapacity": 99999,
 	"itemCapacity": 1000,
 	"abilities": [
 		{"type":"RepairFieldAbility",
@@ -51,6 +51,15 @@
 		{
 			"type": "ForceFieldAbility",
 			"sides": 5,
+			"radius": 150,
+			"regen": 100,
+			"max": 12000,
+			"cooldown": 900
+		},
+		{
+			"type": "ForceFieldAbility",
+			"sides": 5,
+			"rotation":180,
 			"radius": 150,
 			"regen": 100,
 			"max": 12000,

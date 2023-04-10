@@ -19,7 +19,7 @@
 	"spore-slowed","corroded","标记","裂位标记",
 	"拆解","干扰","绝判","油蚀",
 	"碎解","阳电","阴电","崩溃"],
-    "ammoCapacity": 99999,
+	"ammoCapacity": 99999,
 	"speed": 0.55,
 	"hitSize": 180,
 	"hovering":true,
@@ -42,6 +42,7 @@
 						"lifetime": 20,
 						"sizeFrom": 20,
 						"sizeTo": 800,
+						"interp":"circleOut",
 						"strokeFrom": 15,
 						"strokeTo": 0,
 						"colorFrom": "FF5B5BFF",
@@ -467,7 +468,7 @@
 		"hitSound": "laser",
 	"hitEffect":{
 		"type": "MultiEffect",
-		"effects": [    
+		"effects": [	
 		{
 		"type": "ParticleEffect",
 		"particles": 1,
@@ -521,7 +522,7 @@
 		"hitSound": "laser",
 	"hitEffect":{
 		"type": "MultiEffect",
-		"effects": [    
+		"effects": [	
 		{
 		"type": "ParticleEffect",
 		"particles": 1,
@@ -575,7 +576,7 @@
 		"hitSound": "laser",
 	"hitEffect":{
 		"type": "MultiEffect",
-		"effects": [    
+		"effects": [	
 		{
 		"type": "ParticleEffect",
 		"particles": 1,
@@ -774,7 +775,7 @@
 		"hitSound": "laser",
 	"hitEffect":{
 		"type": "MultiEffect",
-		"effects": [    
+		"effects": [	
 		{
 		"type": "ParticleEffect",
 		"particles": 1,
@@ -828,7 +829,7 @@
 		"hitSound": "laser",
 	"hitEffect":{
 		"type": "MultiEffect",
-		"effects": [    
+		"effects": [	
 		{
 		"type": "ParticleEffect",
 		"particles": 1,
@@ -882,7 +883,7 @@
 		"hitSound": "laser",
 	"hitEffect":{
 		"type": "MultiEffect",
-		"effects": [    
+		"effects": [	
 		{
 		"type": "ParticleEffect",
 		"particles": 1,

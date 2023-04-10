@@ -4,7 +4,8 @@
 	"description": "研究并生产先进战斗单位。",
     "health":2800,
 	"size":5,
-	"consumes":{"power":18,		"liquid": {"liquid": "cryofluid", "amount": 0.6}	},
+	"consumes":{"power":18,
+	"liquid": {"liquid": "cryofluid", "amount": 0.6}	},
 	"plans":[
 	{ "unit": "fortress", 
 	"time":1980, 

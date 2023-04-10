@@ -10,8 +10,8 @@
 "liquidCapacity": 30,
 	"requirements": [
 		{"item": "graphite", "amount": 35},
-	    {"item": "silicon", "amount": 20},
-	    {"item": "硅钢", "amount": 25},
+		{"item": "silicon", "amount": 20},
+		{"item": "硅钢", "amount": 25},
 		{"item": "一级协议", "amount": 0}
 ],
 "consumes": { "power": 1.81},

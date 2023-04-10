@@ -10,9 +10,9 @@
   "x": 7.5,  "y": 0,
   "shootY":8,	
   "shoot":{
-    "type":"ShootSpread",
-    "shots":3,
-    "spread": 1.77},
+	"type":"ShootSpread",
+	"shots":3,
+	"spread": 1.77},
   "rotate": true,
   "inaccuracy": 6,
 	"alternate": true,  

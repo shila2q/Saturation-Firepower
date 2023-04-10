@@ -1,6 +1,5 @@
 {
 	"type": "legs",
-	//"hidden":true,
 	"legCount": 4,
 	"legLength": 35,
 	"legForwardScl": 0.35,

@@ -10,13 +10,13 @@
 	"craftTime": 100,
 	"itemCapacity": 20,
 	"drawer":{
-        "type":"DrawMulti",
-        "drawers":[
-            "DrawDefault",
-    {"type":"DrawFlame",
-    "flameColor":"25C9ABFF"}
-            ]
-    },
+		"type":"DrawMulti",
+		"drawers":[
+			"DrawDefault",
+	{"type":"DrawFlame",
+	"flameColor":"25C9ABFF"}
+			]
+	},
 	"craftEffect":{
 		"type": "ParticleEffect",
 		"particles": 4,
@@ -25,13 +25,13 @@
 		"region":"饱和火力-菱形",
 		"lifetime": 18,
 		"sizeFrom": 4,
-        "sizeTo": 0,
+		"sizeTo": 0,
 		"colorFrom": "25C9ABFF",
 		"colorTo": "25C9AB",
 		"cone":360 },
 	"consumes": {
-    "power":8,
-    "items": {
+	"power":8,
+	"items": {
 	"items": [
 	{ "item": "硅钢", "amount": 1},
 	{ "item": "surge-alloy", "amount": 1}

@@ -9,16 +9,16 @@
 	"craftTime": 50,
 	"itemCapacity": 10,
 	"drawer":{
-        "type":"DrawMulti",
-        "drawers":[
-            "DrawDefault",
-            "DrawFlame"
-            ]
-    },
+		"type":"DrawMulti",
+		"drawers":[
+			"DrawDefault",
+			"DrawFlame"
+			]
+	},
 	"craftEffect":"smeltsmoke",
 	"consumes": {
-    "power":1.5,
-    "items": {	 "items": [
+	"power":1.5,
+	"items": {	 "items": [
 	  { "item": "titanium", "amount": 1},
 	  { "item": "silicon", "amount": 1}
 		]

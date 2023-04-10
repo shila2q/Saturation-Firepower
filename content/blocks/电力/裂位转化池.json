@@ -81,7 +81,7 @@
 	"lightning":3,
 	"lightningLength":13,
 	"lightningColor":"25C9ABFF",
-	"speed":1,    "lifetime": 1,
+	"speed":1,	"lifetime": 1,
 	"splashDamageRadius":160,
 	"splashDamage":280},
 	"consumes": 

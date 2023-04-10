@@ -11,8 +11,8 @@
 	"liquidPressure": 2, 
 	"requirements": [
 	{"item": "metaglass", "amount":2},
-    {"item": "titanium", "amount":1 },
-    {"item": "硅钢", "amount":1 },
+	{"item": "titanium", "amount":1 },
+	{"item": "硅钢", "amount":1 },
 	{"item": "镄", "amount":1 }
 	],
 	"category": "liquid",

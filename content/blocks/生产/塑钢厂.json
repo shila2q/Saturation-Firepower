@@ -10,23 +10,23 @@
 	"itemCapacity": 20,
 	"liquidCapacity": 20,
 	"drawer":{
-        "type":"DrawMulti",
-        "drawers":[
-            "DrawDefault",
+		"type":"DrawMulti",
+		"drawers":[
+			"DrawDefault",
 			"DrawFade"
-            ]
-    },
+			]
+	},
 	"craftEffect":"formsmoke",
-    "updateEffect":"plasticburn",
+	"updateEffect":"plasticburn",
 	"consumes": {
-    "power":7,
-    "liquid":{
+	"power":7,
+	"liquid":{
 	"liquid":"oil",
 	"amount":0.5,
 	"booster":false	},
-    "items": {
+	"items": {
 	 "items": [
-	    { "item": "titanium", "amount": 5 }	]
+		{ "item": "titanium", "amount": 5 }	]
   }
  },
 "requirements": [

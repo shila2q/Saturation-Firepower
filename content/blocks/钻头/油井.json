@@ -9,7 +9,7 @@
 "hasLiquids": true,
 "liquidCapacity": 60,
 	"requirements": [
-	    {"item": "silicon", "amount": 85},
+		{"item": "silicon", "amount": 85},
 		{"item": "graphite", "amount": 90},
 		{"item": "硅钢", "amount":40},
 		{"item": "metaglass", "amount":85},

@@ -13,16 +13,16 @@
 	"updateEffect":"none",
 	"craftEffect":"smeltsmoke",
 	"drawer":{
-        "type":"DrawMulti",
-        "drawers":[
-            "DrawDefault",
+		"type":"DrawMulti",
+		"drawers":[
+			"DrawDefault",
 		{"type":"DrawFlame",
 		"flameRadius": 0,
 		"flameRadiusIn": 0,
 		"flameRadiusMag": 0,
 		"flameRadiusInMag": 0}
-            ]
-    },
+			]
+	},
 	"consumes": {
 	"power": 2.5,
 	"items": {	"items": [

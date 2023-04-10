@@ -417,7 +417,7 @@
         "homingDelay":10,
         "homingPower":0.08,
         "homingRange": 80,
-        "ammoMultiplier": 6,
+        "ammoMultiplier": 4,
         "trailLength": 13,
         "trailWidth": 3,
         "trailColor": "BFFFDB",
@@ -467,8 +467,8 @@
         "splashDamageRadius": 69.6,
         "splashDamage": 83,
         "lightningDamage":33,
-        "lightning":5,
-        "lightningLength":16,
+        "lightning":4,
+        "lightningLength":8,
         "lightningColor":"BFFFDB"
     }
     },

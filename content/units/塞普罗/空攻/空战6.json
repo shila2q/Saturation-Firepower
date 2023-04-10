@@ -177,7 +177,7 @@
 			"shootY": 32,
 			"x": 0,
 			"y": 0,
-			"reload": 170,
+			"reload": 270,
 			"chargeSound": "lasercharge",
 			"shootSound": "laserbig",
 			"continuous": true,

@@ -16,7 +16,7 @@
 	{"item": "硅钢", "amount": 100},
 	{"item": "silicon", "amount": 140},
 	{ "item": "裂位能", "amount": 70 } 
-	    ],
+		],
 	"category":"turret",
 	"research": "segment"
 }

@@ -11,7 +11,7 @@
 	"consumes": {
 	"power": 4.5	},
 	"requirements": [
- 	{ "item": "metaglass", "amount":80 }, 
+ 	{ "item": "metaglass", "amount":80 },
  	{ "item": "titanium", "amount": 90},
  	{ "item": "硅钢", "amount": 40},
  	{ "item": "silicon", "amount":70 },

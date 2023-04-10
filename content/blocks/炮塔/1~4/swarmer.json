@@ -91,7 +91,7 @@
 			"damage": 9,
 			"status": "blasted",
 			"statusDuration": 60,
-            "reloadMultiplier": 0.6,
+			"reloadMultiplier": 0.6,
 			"ammoMultiplier":6,
 			"width": 10,
 			"height": 10,

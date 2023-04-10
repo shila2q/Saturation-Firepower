@@ -11,11 +11,10 @@
 	"rotateSpeed": 0.622,
 	"drag": 0.05,
 	"accel": 0.08,
-	"fogRadius": 115,
-	"lightRadius": 500,
+	"fogRadius": 95,
+	"lightRadius": 560,
 	"flying": true,
 	"buildSpeed": 15,
-	"range": 800,
 	"buildBeamOffset": 20,
 	"engineOffset": 70,
 	"engineSize": 20,
@@ -109,10 +108,10 @@
 	"abilities": [
 		{
 			"type": "EnergyFieldAbility",
-			"damage": 75,
+			"damage": 185,
 			"reload": 120,
 			"range": 360,
-			"healPercent": 1.256,
+			"healPercent": 0.856,
 			"effectRadius": 9,
 			"sectors": 8,
 			"sectorRad": 0.08,
@@ -139,23 +138,23 @@
 			"targetAir": true,
 			"hitBuildings": false,
 			"hitUnits": true,
-			"maxTargets": 80
+			"maxTargets": 8
 		},
 		{
 			"type": "ForceFieldAbility",
 			"radius": 250,
-			"regen": 58.333,
+			"regen": 53,
 			"sides": 4,
 			"rotation": 45,
-			"max": 6600,
+			"max": 8000,
 			"cooldown": 1800
 		},
 		{
 			"type": "ForceFieldAbility",
 			"radius": 250,
-			"regen": 58.333,
+			"regen": 53,
 			"sides": 4,
-			"max": 6600,
+			"max": 8000,
 			"cooldown": 1800
 		}
 	],
@@ -649,7 +648,7 @@
 			"shootStatusDuration": 30,
 			"shootStatus": "强攻",
 			"shoot": {
-				"shots":3,
+				"shots":2,
 				"type": "ShootHelix",
 				"mag": 3.65,
 				"scl": 17
@@ -659,8 +658,8 @@
 				"frontColor": "FFFFFF",
 				"backColor": "FEEBB3FF",
 				"hitSound": "laser",
-				"damage": 312,
-				"splashDamage": 280,
+				"damage": 156,
+				"splashDamage": 140,
 				"splashDamageRadius": 66,
 				"homingDelay": 33,
 				"homingPower": 0.085,
@@ -694,7 +693,7 @@
 				"lightningLength": 6,
 				"speed": 2.3,
 				"drag":-0.018,
-				"lifetime": 136.2,
+				"lifetime": 126.3,
 				"width": 22,
 				"height": 22,
 				"parts":[{
@@ -719,7 +718,7 @@
 				"spawnBullets": [
 					{
 						"type": "LaserBulletType",
-						"damage": 172,
+						"damage": 92,
 						"pierceArmor": true,
 						"pierceBuilding": false,
 						"collidesTeam": true,
@@ -806,7 +805,7 @@
 				"height": 30,
 				"width": 15,
 				"sprite": "missile-large",
-				"damage": 120,
+				"damage": 55,
 				"absorbable": false,
 				"speed": 6,
 				"drag": -0.02,

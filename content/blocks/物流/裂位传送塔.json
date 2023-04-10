@@ -5,7 +5,7 @@
 	"health": 80,
 	"range": 36,
 	"transportTime":1,
-    "consumes": {"power": 0.5},
+	"consumes": {"power": 0.5},
 	"requirements": [
 	{ "item": "thorium", "amount": 15 },
 	{ "item": "silicon", "amount": 10 },

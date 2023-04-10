@@ -35,8 +35,8 @@
 		"phase-fabric": {
 			"type": "BasicBulletType",
 			"collides":false,
-        	"hittable":false,
-        	"absorbable":false,
+			"hittable":false,
+			"absorbable":false,
 			"shootEffect": {
 				"type": "ParticleEffect",
 				"particles": 9,

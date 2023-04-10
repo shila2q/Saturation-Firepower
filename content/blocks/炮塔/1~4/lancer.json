@@ -1,6 +1,6 @@
 {
 	"health":1200,
-    "accurateDelay":true,
+	"accurateDelay":true,
 	"moveWhileCharging": false,
 	"shootType": {
 	"type": "LaserBulletType",
@@ -30,7 +30,7 @@
 	},
 	"reload":130,
 	"shootSound":"laser",
-    "chargeSound":"lasercharge2",
+	"chargeSound":"lasercharge2",
 	"shootEffect":"lancerLaserShoot",
 	"smokeEffect": "bigShockwave",
 	"range": 225,

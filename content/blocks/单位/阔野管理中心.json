@@ -7,7 +7,7 @@
 	"size": 10,
 	"liquidCapacity": 120,
 	"consumes": {
-		"power": 40,
+		"power": 1800,
 		"liquid": {
 			"liquid": "纳米流体",
 			"amount": 3.6

@@ -7,7 +7,7 @@
 	"hasLiquids": true,
 	"hasItems": true,
 	"itemCapacity": 20,
-    "liquidCapacity": 300,
+	"liquidCapacity": 300,
 	"requirements": [
 	{ "item": "lead", "amount": 80},
 	{ "item": "metaglass", "amount": 40 }

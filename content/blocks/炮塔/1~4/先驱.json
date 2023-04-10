@@ -22,36 +22,36 @@
 	"statusDuration":10,
 	"speed": 6,"lifetime": 24,
 	"ammoMultiplier":1,
-	"hitEffect": {     
-        "type": "WaveEffect",
-        "lifetime": 8,
-        "sizeFrom": 0,
-        "sizeTo": 8,
-        "strokeFrom": 1,
-        "strokeTo": 0,
-        "colorFrom": "FFFFFF",
-        "colorTo": "BFFFDBFF"
+	"hitEffect": {	 
+		"type": "WaveEffect",
+		"lifetime": 8,
+		"sizeFrom": 0,
+		"sizeTo": 8,
+		"strokeFrom": 1,
+		"strokeTo": 0,
+		"colorFrom": "FFFFFF",
+		"colorTo": "BFFFDBFF"
 	   },
-	   "despawnEffect": {     
-        "type": "WaveEffect",
-        "lifetime": 8,
-        "sizeFrom": 0,
-        "sizeTo": 8,
-        "strokeFrom": 1,
-        "strokeTo": 0,
-        "colorFrom": "FFFFFF",
-        "colorTo": "BFFFDBFF"
+	   "despawnEffect": {	 
+		"type": "WaveEffect",
+		"lifetime": 8,
+		"sizeFrom": 0,
+		"sizeTo": 8,
+		"strokeFrom": 1,
+		"strokeTo": 0,
+		"colorFrom": "FFFFFF",
+		"colorTo": "BFFFDBFF"
 	   }
 	},
-	"shootEffect": {     
-        "type": "WaveEffect",
-        "lifetime": 8,
-        "sizeFrom": 0,
-        "sizeTo": 8,
-        "strokeFrom": 1,
-        "strokeTo": 0,
-        "colorFrom": "FFFFFF",
-        "colorTo": "BFFFDBFF"
+	"shootEffect": {	 
+		"type": "WaveEffect",
+		"lifetime": 8,
+		"sizeFrom": 0,
+		"sizeTo": 8,
+		"strokeFrom": 1,
+		"strokeTo": 0,
+		"colorFrom": "FFFFFF",
+		"colorTo": "BFFFDBFF"
 	   },
 	   "consumes": {"power":1.55,
 		"coolant":{"amount":0.1,"optional":true}  

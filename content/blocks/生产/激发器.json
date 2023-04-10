@@ -18,8 +18,8 @@
 		"colorFrom": "FFF1D2FF",
 		"colorTo": "FFD197FF"},
 	"consumes": {
-    "power":6,
-    "items": {	 "items": [
+	"power":6,
+	"items": {	 "items": [
  { "item": "phase-fabric", "amount": 1}	]
   } },
 "requirements": [

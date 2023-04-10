@@ -7,19 +7,19 @@
 	"itemCapacity": 10,
 	"size": 3,
 	"drawer":{
-	    "type":"DrawMulti",
-	    "drawers":[
-	    {"type":"DrawRegion",
-	    "suffix":"-bottom"
-	    },
-	    {"type":"DrawLiquidTile",
-	    "drawLiquid":"纳米流体"
-	    },
+		"type":"DrawMulti",
+		"drawers":[
 		{"type":"DrawRegion",
-    	"suffix":"-转",
-    	"spinSprite":true,
+		"suffix":"-bottom"
+		},
+		{"type":"DrawLiquidTile",
+		"drawLiquid":"纳米流体"
+		},
+		{"type":"DrawRegion",
+		"suffix":"-转",
+		"spinSprite":true,
    		"rotateSpeed":0.62},
-	    "DrawDefault"
+		"DrawDefault"
 	]},
 	"hasItems": true,
 	"hasLiquids": true,
@@ -34,10 +34,10 @@
 		"sizeTo": 0,
 		"length": 0,
 		"baseLength":0,
-        "lifetime": 30,
-        "colorFrom": "97FFA8",
-        "colorTo": "97FFA8"
-    },
+		"lifetime": 30,
+		"colorFrom": "97FFA8",
+		"colorTo": "97FFA8"
+	},
 	"consumes":{
 	"power": 7.35,
 	"items": {"items": [

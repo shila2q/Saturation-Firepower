@@ -2,7 +2,7 @@
 	"type": "flying",
 	"name": "飓风",
 	"description": "轰击所有敌人。发射密集的能量弹与震爆弹",
-	"details": "",
+	"autoFindTarget":true,
 	"speed": 1.7,
 	"drag": 0.02,
 	"accel": 0.02,

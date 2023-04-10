@@ -13,8 +13,8 @@
 	"type":"DrawMulti",
 	"drawers":[
 	{
-	    "type":"DrawRegion",
-	    "suffix":"-底"
+		"type":"DrawRegion",
+		"suffix":"-底"
 	},
 		{"type":"DrawLiquidRegion",
 		"drawLiquid":"slag",
@@ -30,7 +30,7 @@
 	"DrawDefault"
 ]},
 	"requirements": [
-	    {"item": "thorium", "amount": 45},
+		{"item": "thorium", "amount": 45},
 		{"item": "graphite", "amount": 60},
 		{"item": "metaglass", "amount":80},
 		{"item": "硅钢", "amount":35}
