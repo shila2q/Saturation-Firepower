@@ -29,12 +29,11 @@
 			"rotation": -90
 		},
 		{
-			"x": -84,
+			"x": -80,
 			"y": -130,
 			"radius": 7,
 			"rotation": -130
 		},
-
 		{
 			"x": 73,
 			"y": 16,
@@ -54,13 +53,13 @@
 			"rotation": -90
 		},
 		{
-			"x": 84,
+			"x": 80,
 			"y": -130,
 			"radius": 7,
 			"rotation": -40
 		}
 	],
-	"hitSize": 220,
+	"hitSize": 240,
 	"immunities": [
 		"blasted","burning","electrified",
 		"freezing","melting",
@@ -403,7 +402,7 @@
 			"shoot": {
 				"type": "ShootHelix",
 				"mag": 2,
-				"scl": 9
+				"scl": 11
 			},
 			"shake": 14,
 			"reload": 1000,
@@ -587,13 +586,18 @@
 			}
 		},
 
-		{"name": "四联导弹",
+		{"name": "亚龙3",
 			"x": 48,
 			"y": 104,
 			"mirror": true,
 			"reload": 76,
-			"xRand": 8,
+			"shootY": 0,
 			"shoot": {
+				"type": "ShootBarrel",
+				"barrels": [
+					-6.5,7,0,
+					6.5,7,0
+				],
 				"shots":4,
 			"shotDelay":9},
 			"shootCone": 100,
@@ -713,16 +717,20 @@
 					]}
 				}
 		},
-		{"name": "四联导弹",
+		{"name": "亚龙3",
 			"x": -32,
 			"y": 64,
 			"mirror": true,
 			"reload": 25,
-			"xRand": 8,
+			"shootY": 0,
 			"shoot": {
-				"shots": 3,
-				"shotDelay": 3
-			},
+				"type": "ShootBarrel",
+				"barrels": [
+					-6.5,7,0,
+					6.5,7,0
+				],
+				"shots":4,
+			"shotDelay":9},
 			"shootCone": 100,
 			"shootSound": "missile",
 			"rotate": true,
@@ -840,13 +848,18 @@
 					]}
 				}
 		},
-		{"name": "四联导弹",
+		{"name": "亚龙3",
 			"x": 56,
 			"y": -120,
 			"mirror": true,
 			"reload": 75,
-			"xRand": 8,
+			"shootY": 0,
 			"shoot": {
+				"type": "ShootBarrel",
+				"barrels": [
+					-6.5,7,0,
+					6.5,7,0
+				],
 				"shots":4,
 			"shotDelay":9},
 			"shootCone": 100,
@@ -967,7 +980,7 @@
 				}
 		},
 
-		{"name": "点防",
+		{"name": "利刃1",
 			"type": "PointDefenseWeapon",
 			"x": 32,
 			"y": -16,
@@ -988,10 +1001,10 @@
 			}
 		},
 		{
-			"name": "点防",
+			"name": "利刃1",
 			"type": "PointDefenseWeapon",
 			"x": 36,
-			"y": 32,
+			"y": 36,
 			"rotate": true,
 			"shootSound": "lasercharge2",
 			"recoil": 0,
@@ -1009,9 +1022,9 @@
 			}
 		},
 		{
-			"name": "点防",
+			"name": "利刃1",
 			"type": "PointDefenseWeapon",
-			"x": 70,
+			"x": 72,
 			"y": 0,
 			"rotate": true,
 			"shootSound": "lasercharge2",
@@ -1030,7 +1043,7 @@
 			}
 		},
 		{
-			"name": "点防",
+			"name": "利刃1",
 			"type": "PointDefenseWeapon",
 			"x": 70,
 			"y": 48,
@@ -1051,10 +1064,10 @@
 			}
 		},
 		{
-			"name": "点防",
+			"name": "利刃1",
 			"type": "PointDefenseWeapon",
 			"x": 80,
-			"y": -90,
+			"y": -96,
 			"rotate": true,
 			"shootSound": "lasercharge2",
 			"recoil": 0,
@@ -1072,10 +1085,10 @@
 			}
 		},
 
-		{"name": "脉冲",
+		{"name": "亚龙2",
 			"reload": 66,
 			"shootY": 12,
-			"x": 50,
+			"x": 48.5,
 			"y": -24,
 			"shoot": {
 				"shots": 3,
@@ -1154,7 +1167,7 @@
 			}
 		},
 		{
-			"name": "脉冲",
+			"name": "亚龙2",
 			"reload": 55,
 			"shootY": 12,
 			"x": -72,
@@ -1236,7 +1249,7 @@
 			}
 		},
 
-		{"name": "聚爆",
+		{"name": "亚龙1",
 			"reload": 200,
 			"shootY": 20,
 			"cooldownTime": 180,
@@ -1256,12 +1269,12 @@
 					"lifetime": 20,
 					"line": true,
 					"randLength": false,
-					"lenFrom": 10,
-					"lenTo": 10,
+					"lenFrom": 11,
+					"lenTo": 11,
 					"strokeFrom": 10,
 					"strokeTo": 0,
-					"colorFrom": "FF5B5B",
-					"colorTo": "FF5B5B00",
+					"colorFrom": "FF5B5B80",
+					"colorTo": "FF5B5B80",
 					"cone": 0
 				},
 				"trailSpacing": 9,
@@ -1271,8 +1284,9 @@
 				"damage":7850,
 				"splashDamage": 750,
 				"splashDamageRadius": 45,
-				"speed": 180,
-				"lifetime": 5,
+				"speed": 60,
+				"lifetime": 18,
+				"hitShake":8,
 				"hitSound": "plasmaboom",
 				"shootEffect": {
 					"type": "MultiEffect",
@@ -1290,56 +1304,74 @@
 						{
 							"type": "ParticleEffect",
 							"particles": 12,
-							"lenFrom": 8,
-							"lenTo": 20,
+							"interp":"pow10Out",
+							"sizeIntrep":"pow10In",
+							"lenFrom": 23,
+							"lenTo": 0,
+							"line":true,
 							"strokeFrom": 6,
 							"strokeTo": 0,
 							"length": 80,
 							"baseLength": 8,
 							"lifetime": 120,
 							"colorFrom": "FF5B5B",
-							"colorTo": "C43333FF",
+							"colorTo": "C43333",
 							"cone": 60
-						},
-						{
-							"type": "ParticleEffect",
-							"particles": 1,
-							"sizeFrom": 20,
-							"sizeTo": 0,
-							"length": 0,
-							"baseLength": 0,
-							"lifetime": 70,
-							"colorFrom": "FF5B5Bb8",
-							"colorTo": "C4333300",
-							"cone": 0
 						}
 					]
 				},
-				"smokeEffect": "bigShockwave",
+				"smokeEffect": "none",
 				"hitEffect": {
 					"type": "MultiEffect",
 					"effects": [
 						{
 							"type": "ParticleEffect",
 							"particles": 1,
-							"sizeFrom": 45,
+							"sizeFrom": 8,
 							"sizeTo": 45,
 							"length": 0,
 							"baseLength": 0,
-							"lifetime": 30,
+							"interp":"pow10Out",
+							"lifetime": 10,
+							"colorFrom": "C4333300",
+							"colorTo": "FF5B5Bb8",
+							"cone": 0
+						},
+						{
+							"type": "ParticleEffect",
+							"particles": 1,
+							"sizeFrom": 45,
+							"sizeTo": 0,
+							"length": 0,
+							"baseLength": 0,
+							"startDelay":9.5,
+							"interp":"pow5In",
+							"lifetime": 106,
 							"colorFrom": "FF5B5Bb8",
 							"colorTo": "C4333300",
 							"cone": 0
 						},
 						{
 							"type": "WaveEffect",
-							"lifetime": 45,
+							"lifetime": 75,
 							"sizeFrom": 0,
-							"sizeTo": 100,
-							"strokeFrom": 8,
+							"interp":"circleOut",
+							"sizeTo": 70,
+							"strokeFrom": 16,
 							"strokeTo": 0,
-							"colorFrom": "FF5B5Bb8",
-							"colorTo": "C43333b8"
+							"colorFrom": "C43333b8",
+							"colorTo": "FF5B5B"
+						},
+						{
+							"type": "WaveEffect",
+							"lifetime": 75,
+							"sizeFrom": 0,
+							"interp":"circleOut",
+							"sizeTo": 100,
+							"strokeFrom": 16,
+							"strokeTo": 0,
+							"colorFrom": "C43333b8",
+							"colorTo": "FF5B5B"
 						}
 					]
 				},
@@ -1347,7 +1379,7 @@
 			}
 		},
 		{
-			"name": "聚爆",
+			"name": "亚龙1",
 			"reload": 200,
 			"shootY": 20,
 			"cooldownTime": 180,
@@ -1365,14 +1397,14 @@
 					"particles": 1,
 					"baseLength": 1,
 					"lifetime": 20,
-					"randLength": false,
 					"line": true,
-					"lenFrom": 10,
-					"lenTo": 10,
+					"randLength": false,
+					"lenFrom": 11,
+					"lenTo": 11,
 					"strokeFrom": 10,
 					"strokeTo": 0,
-					"colorFrom": "FF5B5B",
-					"colorTo": "FF5B5B00",
+					"colorFrom": "FF5B5B80",
+					"colorTo": "FF5B5B80",
 					"cone": 0
 				},
 				"trailSpacing": 9,
@@ -1382,8 +1414,9 @@
 				"damage":7850,
 				"splashDamage": 750,
 				"splashDamageRadius": 45,
-				"speed": 180,
-				"lifetime": 5,
+				"speed": 60,
+				"lifetime": 18,
+				"hitShake":8,
 				"hitSound": "plasmaboom",
 				"shootEffect": {
 					"type": "MultiEffect",
@@ -1401,56 +1434,74 @@
 						{
 							"type": "ParticleEffect",
 							"particles": 12,
-							"lenFrom": 8,
-							"lenTo": 20,
+							"interp":"pow10Out",
+							"sizeIntrep":"pow10In",
+							"lenFrom": 23,
+							"lenTo": 0,
+							"line":true,
 							"strokeFrom": 6,
 							"strokeTo": 0,
 							"length": 80,
 							"baseLength": 8,
 							"lifetime": 120,
 							"colorFrom": "FF5B5B",
-							"colorTo": "C43333FF",
+							"colorTo": "C43333",
 							"cone": 60
-						},
-						{
-							"type": "ParticleEffect",
-							"particles": 1,
-							"sizeFrom": 20,
-							"sizeTo": 0,
-							"length": 0,
-							"baseLength": 0,
-							"lifetime": 70,
-							"colorFrom": "FF5B5Bb8",
-							"colorTo": "C4333300",
-							"cone": 0
 						}
 					]
 				},
-				"smokeEffect": "bigShockwave",
+				"smokeEffect": "none",
 				"hitEffect": {
 					"type": "MultiEffect",
 					"effects": [
 						{
 							"type": "ParticleEffect",
 							"particles": 1,
-							"sizeFrom": 45,
+							"sizeFrom": 8,
 							"sizeTo": 45,
 							"length": 0,
 							"baseLength": 0,
-							"lifetime": 30,
+							"interp":"pow10Out",
+							"lifetime": 10,
+							"colorFrom": "C4333300",
+							"colorTo": "FF5B5Bb8",
+							"cone": 0
+						},
+						{
+							"type": "ParticleEffect",
+							"particles": 1,
+							"sizeFrom": 45,
+							"sizeTo": 0,
+							"length": 0,
+							"baseLength": 0,
+							"startDelay":9.5,
+							"interp":"pow5In",
+							"lifetime": 106,
 							"colorFrom": "FF5B5Bb8",
 							"colorTo": "C4333300",
 							"cone": 0
 						},
 						{
 							"type": "WaveEffect",
-							"lifetime": 45,
+							"lifetime": 75,
 							"sizeFrom": 0,
-							"sizeTo": 100,
-							"strokeFrom": 8,
+							"interp":"circleOut",
+							"sizeTo": 70,
+							"strokeFrom": 16,
 							"strokeTo": 0,
-							"colorFrom": "FF5B5Bb8",
-							"colorTo": "C43333b8"
+							"colorFrom": "C43333b8",
+							"colorTo": "FF5B5B"
+						},
+						{
+							"type": "WaveEffect",
+							"lifetime": 75,
+							"sizeFrom": 0,
+							"interp":"circleOut",
+							"sizeTo": 100,
+							"strokeFrom": 16,
+							"strokeTo": 0,
+							"colorFrom": "C43333b8",
+							"colorTo": "FF5B5B"
 						}
 					]
 				},

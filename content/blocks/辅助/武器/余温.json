@@ -329,7 +329,7 @@
 		"type": "ShootPattern",
 		"firstShotDelay": 120,
 		"shots":3,
-		"shotDelay":50
+		"shotDelay":10
 	},
 	"shootY":24,
 	"shootSound": "largeExplosion",
@@ -385,7 +385,6 @@
 	"hitSoundVolume":8,
 	/**"parts":[
 		{"type": "HaloPart",
-		"progress": "recoil",
 		"rotateSpeed": 0,
 		"shapeRotation":0,
 		"y":-30,
@@ -404,7 +403,6 @@
 		"haloRotateSpeed": 6,
 		"layer": 110},
 		{"type": "HaloPart",
-		"progress": "recoil",
 		"rotateSpeed": 0,
 		"shapeRotation":0,
 		"y":-30,

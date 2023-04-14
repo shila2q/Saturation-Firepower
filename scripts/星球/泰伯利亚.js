@@ -263,7 +263,7 @@ SFlib.addToResearch(火天路, {
 });
 
 const 实验种植地 = new SectorPreset("实验种植地", TBLY, 64);
-实验种植地.description = "";
+实验种植地.description = "[stat]分支难度警告：非主线战役，可不打。";
 实验种植地.difficulty = 20;
 实验种植地.alwaysUnlocked = false;
 实验种植地.addStartingItems = true;
