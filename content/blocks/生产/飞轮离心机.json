@@ -1,7 +1,6 @@
 {
 	"type": "GenericCrafter",
 	"name": "飞轮离心机",
-	"description": "更快生产煤炭",
 	"outputItem": { "item": "coal", "amount": 2},
 	"size": 3,
 	"hasPower": true,

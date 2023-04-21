@@ -1,7 +1,6 @@
 {
 	"type": "GenericCrafter",
 	"name": "高压粉碎机",
-	"description": "更快打碎废料成为沙子。",
 	"outputItem": { "item": "sand", "amount": 3},
 	"size": 2,
 	"hasPower": true,

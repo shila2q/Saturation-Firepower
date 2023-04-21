@@ -1,7 +1,6 @@
 {
 	"type": "GenericCrafter",
 	"name": "熔炼炉",
-	"description": "更有效地融化废料并输出",
 	"outputLiquid": { "liquid": "slag", "amount": 0.4},
 	"size": 2,
 	"hasPower": true,

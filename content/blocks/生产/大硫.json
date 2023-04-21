@@ -2,7 +2,6 @@
 	"type": "GenericCrafter",
 	"health": 360,
 	"name": "大型硫混合器",
-	"description": "更坚固，更大，更快速",
 	"outputItem": {
 	"item": "pyratite", "amount": 5
 	},
@@ -18,7 +17,8 @@
 		"items": [
 	{ "item": "coal", "amount": 5 },
 	{ "item": "lead", "amount": 10 },
-	{ "item": "sand", "amount": 10 }		]	}	},
+	{ "item": "sand", "amount": 10 }
+	]	}	},
 	"requirements": [
 	{ "item": "copper", "amount": 100 },
 	{ "item": "lead", "amount": 50 },

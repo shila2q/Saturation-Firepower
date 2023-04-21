@@ -9,6 +9,7 @@
 	"DrawPumpLiquid",
 	"DrawDefault"
 	]},
+	"squareSprite": false,
 	"health": 1040,
 	"liquidCapacity": 800,
 	"hasLiquids": true,

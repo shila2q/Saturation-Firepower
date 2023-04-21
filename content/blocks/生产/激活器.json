@@ -1,7 +1,6 @@
 {
 	"type": "GenericCrafter",
 	"name": "激活器",
-	"description": "激活纳米核，转变为大量纳米机器组成的流体并混入冷冻液中",
 	"health": 360,
 	"outputLiquid":{"liquid": "纳米流体", "amount": 0.3},
 	"itemCapacity": 10,

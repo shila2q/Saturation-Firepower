@@ -4,14 +4,14 @@
 	"description": "利用镄的强烈放射性产生能量，需要持续冷却液供给，过热或被摧毁会导致剧烈爆炸。",
 	"size": 3,
 	"health": 1500,
-	"liquidCapacity": 60,
+	"liquidCapacity": 30,
 	"itemCapacity": 15,
 	"hasItems": true,
 	"hasLiquids": true,
 	"outputsPower": true,
-	"powerProduction": 90,
+	"powerProduction": 51.5,
 	"itemDuration": 300,
-	"heating":0.04,
+	"heating":0.02,
 	"lightColor": "FFFFFF",
 	"explosionShake":9,
 	"explosionShakeDuration":120,
@@ -96,30 +96,12 @@
 	"items":["镄/1"]
 	},
 	"requirements": [
-		{
-			"item": "lead",
-			"amount": 120
-		},
-		{
-			"item": "graphite",
-			"amount": 90
-		},
-		{
-			"item": "metaglass",
-			"amount": 60
-		},
-		{
-			"item": "镄",
-			"amount": 20
-		},
-		{
-			"item": "silicon",
-			"amount": 130
-		},
-		{
-			"item": "硅钢",
-			"amount": 90
-		}
+		"lead/300",
+		"graphite/90",
+		"metaglass/60",
+		"镄/150",
+		"silicon/130",
+		"硅钢/90"
 	],
 	"category": "power",
 	"research": "thorium-reactor"

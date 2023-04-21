@@ -1,7 +1,6 @@
 {
 	"type": "GenericCrafter",
 	"name": "集束捆合器",
-	"description": "将硫和爆炸混合物混合为集束炸药",
 	"outputItem": { "item": "集束", "amount": 1 },
 	"size": 2,
 	"hasPower": true,

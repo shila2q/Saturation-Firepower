@@ -38,8 +38,8 @@
 	"layer":41},
 	"minWarmup": 0.8,
 	"shootWarmupSpeed": 0.043,
-	"drawer":{"type":"DrawMulti",
-	"drawers":[{"type":"DrawTurret",
+	"drawer":{
+	"type":"DrawTurret",
 	"parts":[
 		{
 			"type": "RegionPart",
@@ -65,7 +65,7 @@
 			"heatProgress": "warmup",
 			"heatColor": "FF7055FF"
 		}
-	]}]},
+	]},
 	"inaccuracy": 0,
 	"rotateSpeed": 1.8,
 	"maxAmmo":24,
@@ -233,8 +233,8 @@
 			"length": 85,
 			"baseLength": 0,
 			"lifetime": 35,
-			"colorFrom": "FEEBB3FF",
-			"colorTo": "FEEBB3FF",
+			"colorFrom": "EEC591FF",
+			"colorTo": "EEC591FF",
 			"cone": 70},
 			{	"type": "ParticleEffect",
 				"particles": 1,
@@ -243,8 +243,8 @@
 				"length": 0,
 				"baseLength": 0,
 				"lifetime": 50,
-				"colorFrom": "FEEBB3FF",
-				"colorTo": "FEEBB3F",
+				"colorFrom": "EEC591FF",
+				"colorTo": "EEC591F",
 				"cone": 360},
 				{"type": "WaveEffect",
 				"lifetime": 9,
@@ -263,8 +263,8 @@
 		"length": 0,
 		"baseLength": 0,
 		"lifetime": 180,
-		"colorFrom": "FEEBB3FF",
-		"colorTo": "FEEBB3F",
+		"colorFrom": "EEC591FF",
+		"colorTo": "EEC591F",
 		"cone": 360},
 		"hitEffect":{
 			"type": "MultiEffect",
@@ -276,8 +276,8 @@
 			"length": 0,
 			"baseLength": 0,
 			"lifetime": 180,
-			"colorFrom": "FEEBB3FF",
-			"colorTo": "FEEBB3F",
+			"colorFrom": "EEC591FF",
+			"colorTo": "EEC591F",
 			"cone": 360},
 				{"type": "WaveEffect",
 				"lifetime": 10,
@@ -285,8 +285,8 @@
 				"sizeTo": 95,
 				"strokeFrom": 8,
 				"strokeTo": 0,
-				"colorFrom": "FEEBB3",
-				"colorTo": "FEEBB3"}
+				"colorFrom": "EEC591",
+				"colorTo": "EEC591"}
 		]},
 	"hitSound":"plasmaboom",
 	"trailEffect": {
@@ -301,8 +301,8 @@
 		"lenTo":11,
 		"strokeFrom": 10,
 		"strokeTo": 0,
-		"colorFrom": "FEEBB3FF",
-		"colorTo": "FEEBB3FF",
+		"colorFrom": "EEC591FF",
+		"colorTo": "EEC591FF",
 		"cone":0 },
 	"trailSpacing": 10,
 	"speed":100,"lifetime":80,
@@ -329,7 +329,7 @@
 		"lightningDamage": 98,
 		"lightning": 8,
 		"lightningLength": 18,
-		"lightningColor":"FEEBB3FF",
+		"lightningColor":"EEC591FF",
 		"pierceArmor":true,
 		"hitShake":7,
 		"hitSound": "plasmaboom",
@@ -344,8 +344,8 @@
 			"lifetime": 65,
 			"interp": "pow10Out",
 			"sizeInterp": "pow5In",
-			"colorFrom": "FEEBB3",
-			"colorTo": "FEEBB3",
+			"colorFrom": "EEC591",
+			"colorTo": "EEC591",
 			"cone": 360},
 			{"type": "ParticleEffect",
 				"particles": 22,
@@ -358,8 +358,8 @@
 				"baseLength": 0,
 				"lifetime": 45,
 				"sizeInterp": "pow5In",
-				"colorFrom": "FEEBB3FF",
-				"colorTo": "FEEBB3FF",
+				"colorFrom": "EEC591FF",
+				"colorTo": "EEC591FF",
 				"cone": 360},
 			{"type": "WaveEffect",
 			"lifetime": 20,
@@ -367,8 +367,8 @@
 			"sizeTo": 66,
 			"strokeFrom":3,
 			"strokeTo":0,
-			"colorFrom":"FEEBB3FF",
-			"colorTo": "FEEBB3FF"}
+			"colorFrom":"EEC591FF",
+			"colorTo": "EEC591FF"}
 			]},
 	"despawnEffect":"none"
 	}

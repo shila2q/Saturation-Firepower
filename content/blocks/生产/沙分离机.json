@@ -1,7 +1,6 @@
 {
 	"type": "Separator",
 	"name": "沙分离机",
-	"description": "过滤分离水中混杂的沙子",
 	"results": [
 		{
 			"item": "sand",

@@ -1,7 +1,6 @@
 {
 	"type": "GenericCrafter",
 	"name": "激发器",
-	"description": "使用α粒子流向相位物照射，使其成为具有极高能量且不稳定的激发态",
 	"outputItem": { "item": "裂位能", "amount": 1 },
 	"size": 2,
 	"hasPower": true,

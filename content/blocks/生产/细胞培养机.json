@@ -21,7 +21,6 @@
     { "amount": 40, "item": "titanium" },
     { "amount": 30, "item": "metaglass" }
     ],
-	"description": "利用无性繁殖技术快速大量地培育孢子，供应充足液体保证持续生产。",
     "consumes": {
     "power": 6.6,
     "liquid": {"liquid": "water",

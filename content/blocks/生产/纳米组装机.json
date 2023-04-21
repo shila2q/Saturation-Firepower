@@ -1,7 +1,6 @@
 {
 	"type": "GenericCrafter",
 	"name": "纳米组装机",
-	"description": "组装纳米核",
 	"outputItem": { "item": "纳米核", "amount": 1 },
 	"size": 4,
 	"hasPower": true,

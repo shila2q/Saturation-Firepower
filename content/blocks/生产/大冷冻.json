@@ -1,7 +1,6 @@
 {
 	"type": "GenericCrafter",
 	"name": "大型冷冻机",
-	"description": "一个顶俩",
 	"health": 360,
 	"outputLiquid": {"liquid": "cryofluid", "amount": 0.6},
 	"itemCapacity": 14,

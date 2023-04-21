@@ -14,6 +14,7 @@
 	"fogRadius": 95,
 	"lightRadius": 560,
 	"flying": true,
+	"buildRange": 400,
 	"buildSpeed": 15,
 	"buildBeamOffset": 20,
 	"engineOffset": 70,

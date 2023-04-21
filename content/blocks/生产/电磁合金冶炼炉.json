@@ -1,7 +1,6 @@
 {
 	"type": "GenericCrafter",
 	"name": "电磁合金冶炼炉",
-	"description": "内产磁场加热，更高效率地冶炼合金。",
 	"outputItem": { "item": "surge-alloy", "amount": 3},
 	"size": 4,
 	"hasPower": true,

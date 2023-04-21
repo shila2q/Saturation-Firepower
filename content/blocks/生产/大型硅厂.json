@@ -2,7 +2,6 @@
 	"type": "GenericCrafter",
 	"health": 360,
 	"name": "火硅炉",
-	"description": "加快生产速度，弥补前期硅产不足,拒绝硅零",
 	"outputItem": {"item": "silicon", "amount": 3	},
 	"itemCapacity": 40,
 	"size": 3,

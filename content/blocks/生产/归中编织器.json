@@ -2,7 +2,6 @@
 	"type": "GenericCrafter",
 	"health": 360,
 	"name": "归中编织器",
-	"description": "利用裂位能发出的放射线快速制造相织物。",
 	"outputItem": {
 		"item": "phase-fabric",
 		"amount": 3
@@ -16,8 +15,8 @@
 		"sizeTo": 10,
 		"strokeFrom": 6,
 		"strokeTo": 0,
-		"colorFrom": "FFF1D2FF",
-		"colorTo": "FFD197FF"
+		"colorFrom": "FFF1D2",
+		"colorTo": "FFD197"
 	},
 	"drawer": {
 		"type": "DrawMulti",

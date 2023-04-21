@@ -10,6 +10,7 @@
 	"phaseRangeBoost":0,
 	"speedBoostPhase":0.3,
 	"speedBoost": 1.5,
+	"squareSprite": false,
 	"hasBoost":true,
 	"consumes": {
 		"power": 6,
@@ -125,7 +126,6 @@
 		"surge-alloy/60",
 		"tungsten/90",
 		"carbide/25"
-		
 	],
 	"category": "effect",
 	"research":"regen-projector"

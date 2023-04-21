@@ -1,7 +1,6 @@
 {
 	"type": "GenericCrafter",
 	"name": "泰勒合金冶炼厂",
-	"description": "使用巨浪合金，硅钢冶炼泰勒合金",
 	"outputItem": { "item": "泰勒合金", "amount": 1},
 	"size": 3,
 	"hasPower": true,
@@ -19,12 +18,12 @@
 	},
 	"craftEffect":{
 		"type": "ParticleEffect",
-		"particles": 4,
+		"particles": 5,
 		"baseLength": 1,
 		"length":13,
 		"region":"饱和火力-菱形",
-		"lifetime": 18,
-		"sizeFrom": 4,
+		"lifetime": 22,
+		"sizeFrom": 5,
 		"sizeTo": 0,
 		"colorFrom": "25C9ABFF",
 		"colorTo": "25C9AB",

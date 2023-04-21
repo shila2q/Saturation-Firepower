@@ -1,7 +1,6 @@
 {
 	"type": "Separator",
 	"name": "重油沉淀池",
-	"description": "持续搅动缓慢沉淀分离硝化重油中的固体物质。[red]小心爆炸！",
 	"results": [
 {"item": "blast-compound", "amount": 3},
 { "item": "pyratite", "amount": 2}	],

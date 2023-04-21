@@ -1,7 +1,6 @@
 {
 	"type": "GenericCrafter",
 	"name": "孢子冲压机",
-	"description": "大量冲压孢子产生石油，可能有所损耗",
 	"outputLiquid": { "liquid": "oil", "amount": 0.6},
 "drawer": {
 		"type": "DrawMulti",

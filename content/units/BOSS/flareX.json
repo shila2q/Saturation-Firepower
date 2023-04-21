@@ -171,7 +171,7 @@
 				"type": "BombBulletType",
 				"speed":8,
 				"drag":0.12,
-				"maxRange": 44,
+				"maxRange": 14,
 				"buildingDamageMultiplier": 1.5,
 				"splashDamageRadius": 40,
 				"splashDamage": 86,

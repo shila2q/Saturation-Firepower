@@ -12,6 +12,7 @@
 	"type":"PowerAmmoType",
 	"totalPower":3000},
 	"hitSize":28,
+	"buildRange": 288,
 	"buildSpeed": 3.5,
 	"buildBeamOffset":11,
 	"flying": true,

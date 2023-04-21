@@ -1,7 +1,6 @@
 {
 	"type": "GenericCrafter",
 	"name": "硅钢冶炼炉",
-	"description": "将钛和硅冶炼为硅钢",
 	"outputItem": { "item": "硅钢", "amount": 1 },
 	"size": 2,
 	"hasPower": true,

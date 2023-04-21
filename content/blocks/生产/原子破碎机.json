@@ -1,7 +1,6 @@
 {
 	"type": "Separator",
 	"name": "分子破碎机",
-	"description": "击碎分子为基本物理粒子并重组，以此来分离出几乎所有的材料",
 	"results": [
 	{"item": "copper", "amount": 1},
 	{"item": "lead", "amount": 1},

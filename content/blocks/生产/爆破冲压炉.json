@@ -2,7 +2,6 @@
 	"type": "GenericCrafter",
 	"health": 660,
 	"name": "爆破冲压炉",
-	"description": "利用爆炸冲压沙子冶炼硅",
 	"outputItem": {
 	"item":"silicon", "amount":10},
 	"itemCapacity": 40,

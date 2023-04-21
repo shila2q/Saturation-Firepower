@@ -2,7 +2,6 @@
 	"type": "GenericCrafter",
 	"health": 360,
 	"name": "大型爆炸混合器",
-	"description": "更坚固，更大，更高效",
 	"outputItem": {
 	"item": "blast-compound", "amount": 5
 	},
