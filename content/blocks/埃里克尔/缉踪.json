@@ -8,7 +8,7 @@
 	"shootSound":"missileLarge",
 	"shake":2,
 	"consumes": {
-		"power":16
+		"power":18
 	},
 	"minWarmup": 0.8,
 	"shootWarmupSpeed": 0.02,
@@ -149,8 +149,8 @@
 	"inaccuracy": 20,
 	"shootCone":360,
 	"rotateSpeed": 1.66,
-	"maxAmmo":32,
-	"ammoPerShot": 8,
+	"maxAmmo":24,
+	"ammoPerShot": 6,
 	"consumeAmmoOnce":false,
 	"ammoTypes": {
 		"silicon":{
@@ -163,9 +163,7 @@
 		"silicon/550",
 		"beryllium/300",
 		"oxide/230",
-		"thorium/330",
-		"tungsten/180",
-		"carbide/90"
+		"thorium/500"
 	],
 	"category": "turret",
 	"research": {

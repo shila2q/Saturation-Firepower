@@ -1,8 +1,6 @@
 {
 	"type": "ImpactReactor",
 	"name": "裂爆反应堆",
-	"description": "强大的反应堆，在内部制造真空区启动链式反应收集大量能量\n请保证其所在地安全！否则将抹去附近敌我双方的一切痕迹",
-	"details": "在核反应堆内部引爆核弹？！真是疯了！",
 	"size": 4,
 	"health": 10500,
 	"liquidCapacity": 500,
@@ -11,7 +9,7 @@
 	"hasItems": true,
 	"hasLiquids": true,
 	"outputsPower": true,
-	"powerProduction": 1000,
+	"powerProduction": 660,
 	"itemDuration": 36000,
 	"lightColor": "FFFFFF",
 	"drawer":{

@@ -9,16 +9,77 @@
 	"range": 520,
 	"maxAmmo": 32,
 	"shootCone":35,
-	"recoilTime": 90,
+	"recoilTime": 18,
 	"canOverdrive": false,
-	"recoil": 8,
+	"recoil": 2,
 	"cooldownTime": 90,
+	"drawer": {
+		"type": "DrawTurret",
+		"parts": [
+			{
+				"type": "RegionPart",
+				"suffix": "-管l",
+				"under":true,
+				"recoilIndex": 0,
+				"moves": [{
+						"progress": "recoil",
+						"y": -6
+					}],
+				"heatProgress": "heat"
+			},
+			{
+				"type": "RegionPart",
+				"suffix": "-管r",
+				"under":true,
+				"recoilIndex": 1,
+				"moves": [{
+						"progress": "recoil",
+						"y": -6
+					}],
+				"heatProgress": "heat"
+			}
+		]},
+	"recoils":2,
 	"shoot": {
 		"type": "ShootAlternate",
 		"barrels": 2,
 		"spread": 24
 	},
-	"ammoUseEffect": "casing4",
+	"ammoUseEffect": {
+		"type":"MultiEffect",
+		"effects":[
+	{
+		"type": "ParticleEffect",
+		"particles": 1,
+		"line": true,
+		"interp":"pow10Out",
+		"sizeInterp":"pow5In",
+		"strokeFrom": 8,
+		"strokeTo": 0,
+		"lenFrom": 10,
+		"lenTo": 0,
+		"length": -48,
+		"baseLength": -10,
+		"randLength": false,
+		"lifetime": 74,
+		"colorFrom": "FFE176",
+		"colorTo": "737373",
+		"layer":48
+	},
+	{
+		"type": "ParticleEffect",
+		"particles": 2,
+		"sizeFrom": 12,
+		"sizeTo": 0,
+		"interp": "pow10Out",
+		"sizeInterp": "pow10In",
+		"length": -60,
+		"baseLength": 0,
+		"lifetime": 85,
+		"colorFrom": "73737390",
+		"colorTo": "73737350",
+		"layer":49}
+	]},
 	"ammoPerShot": 4,
 	"targetGround": true,
 	"targetAir": true,
@@ -512,7 +573,7 @@
 		"objectives": [
 			{
 				"type": "SectorComplete",
-				"preset": "荒芜矿区"
+				"preset": "雷鸣裂谷"
 			}
 		]
 	}

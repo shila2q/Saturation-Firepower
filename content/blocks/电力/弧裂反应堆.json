@@ -2,22 +2,21 @@
 	"type": "ConsumeGenerator",
 	"name": "弧裂反应堆",
 	"size": 6,
-	"health": 4800,
+	"health": 8800,
 	"hasLiquids": true,
 	"hasItems": true,
 	"itemDuration": 840,
-	"powerProduction": 90,
+	"powerProduction": 182.4,
 	"itemCapacity": 20,
 	"liquidCapacity": 40,
 	"drawer": {
 		"type": "DrawMulti",
 		"drawers": [
-			"DrawDefault"{
+			{
 				"type": "DrawRegion",
 				"suffix": "-bottom"
 			},
-			//{"type": "DrawLiquidRegion","drawLiquid": "纳米流体"},
-			
+			//{"type": "DrawPlasma","plasma1": "FFF1D2","plasma2": "EEC591"},
 			{
 				"type":"DrawArcSmelt",
 				"midColor":"FFF1D2",
@@ -40,7 +39,7 @@
 				"flameColor":"EEC591",
 				"flameRad":0,
 				"flameRadiusScl":9,
-				"flameRadiusMag":0.2,
+				"flameRadiusMag":1,
 				"circleSpace":16,
 				"circleStroke":2,
 				"alpha":0.78,
@@ -56,7 +55,7 @@
 				"flameColor":"EEC591",
 				"flameRad":3,
 				"flameRadiusScl":20,
-				"flameRadiusMag":0.46,
+				"flameRadiusMag":0.56,
 				"circleSpace":17,
 				"circleStroke":0.9,
 				"alpha":0.8,
@@ -66,15 +65,17 @@
 				"particleStroke":1.5,
 				"particleLen":9
 			},
+			"DrawDefault",
+			{"type": "DrawLiquidRegion",
+			"drawLiquid": "纳米流体"}
 			//DrawCrucibleFlame，nnd是用来做聚变的特效
-			
 		]
 	},
 	"generateEffect": "generatespark",
 	"consumes": {
 		"itemRadioactive":{},
 		"items": {
-			"items": ["裂位能/14","镄/10"]},
+			"items": ["裂位能/10","镄/10"]},
 		"liquid": "纳米流体/0.9"
 	},
 	"requirements": [
@@ -84,7 +85,7 @@
 		"硅钢/770",
 		"镄/750",
 		"纳米核/800",
-		"二级协议/1"
+		"裂位能/800"
 	],
 	"ambientSound": "techloop",
 	"ambientSoundVolume": 0.06,

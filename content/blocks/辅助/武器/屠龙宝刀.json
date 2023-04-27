@@ -21,7 +21,11 @@
     "drawer": {
         "type": "DrawTurret",
         "parts":[
+//炮管前伸
+//导轨依次伸出*5
 
+//中后板开出散热板
+//背后能量罐侧出*3
 
     {"type": "HaloPart",
         "y":64,
@@ -65,8 +69,9 @@
             {
                 "type": "WaveEffect",
                 "lifetime": 90,
-                "sizeFrom": 50,
+                "sizeFrom": 22,
                 "sizeTo": 300,
+                "interp":"circleOut",
                 "strokeFrom": 30,
                 "strokeTo": 0,
                 "colorFrom": "BFFFDB80",
@@ -89,13 +94,13 @@
                 "sizeFrom": 30,
                 "sizeTo": 0,
                 "sizeInterp":"pow10In",
-                "interp":"pow10Out",
+                "interp":"pow5Out",
                 "length": 1000,
                 "baseLength": 0,
                 "lifetime": 90,
                 "colorFrom": "BFFFDB",
                 "colorTo": "25C9AB",
-                "cone": 60
+                "cone": 26
             }
         ]
     },
@@ -233,8 +238,8 @@
         "trailWidth": 10,
         "shrinkY": 0,
         "hitShake": 80,
-        "hitSound": "DBZ1",
-        "hitSoundVolume":3,
+        "hitSound": "lasercharge",
+        "hitSoundVolume":3.35,
         "ammoMultiplier": 1,
         "despawnEffect":{"type": "ParticleEffect",
         "particles": 1,
