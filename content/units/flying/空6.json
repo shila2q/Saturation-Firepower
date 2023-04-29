@@ -41,7 +41,7 @@
 	"reload":372,
 	"ignoreRotation":true,
 	"rotate": false,
-	"shootStatusDuration":180,
+	"shootStatusDuration":120,
 	"shootStatus":"invincible",
 	"shootCone":180,
 	"shootSound": "plasmadrop",

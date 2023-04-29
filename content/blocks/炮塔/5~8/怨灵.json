@@ -273,6 +273,7 @@
 			"width": 18,
 			"height": 50,
 			"absorbable": false,
+			"pierce": true,
 			"pierceArmor": true,
 			"sprite": "饱和火力-透彻",
 			"backColor": "EEC591",
@@ -342,7 +343,7 @@
 			"status": "崩溃",
 			"statusDuration": 60,
 			"splashDamageRadius": 48,
-			"splashDamage": 185,
+			"splashDamage": 166,
 			"fragRandomSpread": 0,
 			"fragBullets": 2,
 			"fragBullet": {

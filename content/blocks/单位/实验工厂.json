@@ -67,12 +67,9 @@
     ]},
 	{ "unit": "碎辰", "time": 19200,
 	"requirements": [
-   		{ "item": "silicon", "amount": 2700},
-        { "item": "plastanium", "amount": 2000},
-        { "item": "泰勒合金", "amount": 950},
-        { "item": "裂位能", "amount": 850},
-        { "item": "二级协议", "amount": 30},
-		{ "item": "三级协议", "amount": 10}
+		"silicon/4000","plastanium/2000",
+		"泰勒合金/1500","裂位能/3000",
+		"二级协议/20","三级协议/50"
     ]},
 	{ "unit": "陆6", "time": 18480,
 	"requirements": [

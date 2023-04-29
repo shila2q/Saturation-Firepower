@@ -14,7 +14,7 @@
 	"hasLiquids": true,	
 	"itemCapacity": 50,
 	"liquidCapacity": 900,
-	"craftTime": 15,
+	"craftTime": 7.5,
     "drawer":{
         "type":"DrawMulti",
         "drawers":[
