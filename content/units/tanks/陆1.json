@@ -32,15 +32,14 @@
 	],
 	"faceTarget": false,
 	"research": "nova",
-	"requirements": {
+	/*"requirements": {
 		"block": "ground-factory",
 		"time": 1800,
 		"requirements": [
 			"silicon/30",
 			"lead/25",
 			"titanium/25"
-		]
-	},
+		]},*/
 	"abilities": [
 		{
 			"type": "StatusFieldAbility",

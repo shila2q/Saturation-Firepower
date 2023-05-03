@@ -8,12 +8,12 @@
 	"reload":150,
 	"range": 760,
 	"customShadow":false,
-	"fogRadiusMultiuplier":0.52,
+	"fogRadiusMultiuplier":0.42,
 	"maxAmmo":32,
 	"recoil": 0,
 	"shootY":0,
 "minWarmup": 0.8,
-"shootWarmupSpeed": 0.03,
+"shootWarmupSpeed": 0.055,
 "drawer": {
 	"type": "DrawMulti",
 	"drawers": [
@@ -393,14 +393,11 @@
 	}
 	},
 	"requirements": [
-		{ "item": "lead", "amount":180 },
-		{ "item": "graphite", "amount": 140  },	
-		{ "item": "silicon", "amount": 120  },
-		{ "item": "硅钢", "amount": 90  },
-		{ "item": "plastanium","amount":50},
-		{ "item": "二级协议","amount":0}
-
+		"lead/190","graphite/70",
+		"硅钢/90","plastanium/50",
+		"二级协议/0"
 	],
+	"researchCostMultiplier": 0.45,
 	"category": "turret",
 	"research": "swarmer"
 	}

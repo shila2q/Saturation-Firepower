@@ -1,7 +1,6 @@
 {
 	"type": "ItemTurret",
 	"name": "前狼",
-	"description": "发射引导式地空火箭，确保摧毁目标。",
 	"health": 6000,
 	"size": 6,
 	"reload": 136,

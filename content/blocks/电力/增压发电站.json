@@ -7,7 +7,7 @@
 	"hasLiquids": true,
 	"hasItems": true,
 	"itemDuration": 15,
-	"powerProduction": 50,
+	"powerProduction": 44,
 	"itemCapacity": 20,
 	"liquidCapacity": 200,
 	"drawer": {

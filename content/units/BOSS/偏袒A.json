@@ -81,7 +81,7 @@
 				"lightningColor": "EEC591",
 				"lightning": 2,
 				"lightningLength": 9,
-				"buildingDamageMultiplier": 0.63,
+				"buildingDamageMultiplier": 0.43,
 				"sprite": "missile-large",
 				"width": 6,
 				"height": 20,

@@ -20,12 +20,12 @@
 	"itemCapacity": 0,
 	"immunities":["freezing"],
 	"research": "flare",
-	"requirements": {
+	/*"requirements": {
 		"block": "air-factory",
 		"time": 1500,
 		"requirements": [
 			"titanium/15",
-			"silicon/20"]},
+			"silicon/20"]},*/
 	"weapons":[ {"name":"多云1",
 	"x":-2.5,"y":2.5,
 	"reload":8,

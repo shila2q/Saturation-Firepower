@@ -57,7 +57,7 @@
 	"shootY": 0,
 	"ammoPerShot": 6,
 	"velocityRnd": 0.6,
-	"ammoUseEffect":{
+	"shootEffect":{
 		"type": "WaveEffect",
 		"lifetime": 25,
 		"sizeFrom": 0,

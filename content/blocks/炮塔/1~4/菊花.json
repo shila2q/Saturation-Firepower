@@ -1,8 +1,6 @@
 {
 	"type": "ItemTurret",
 	"name": "菊花",
-	"description": "超远程火箭发射器，以低下的弹药利用率为代价，快速对敌人所在地发动轰炸。\n内置定时激活，支持发射纳米弹。",
-	"details":"[yellow]射程盲区较大，注意保护。",
 	"health": 1300,
 	"size": 4,
 	"reload":26,

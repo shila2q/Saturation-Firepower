@@ -16,13 +16,13 @@
 	"armor":2,
 	"faceTarget": false,
 	"research": "risso",
-	"requirements": {
+	/*"requirements": {
 		"block": "naval-factory",
 		"time": 3600,
 		"requirements": [
 			"silicon/35",
 			"titanium/35",
-			"metaglass/25"]},
+			"metaglass/25"]},*/
 	"weapons":[ 
 		{	"name": "参宿1",	
 		"reload": 6,
