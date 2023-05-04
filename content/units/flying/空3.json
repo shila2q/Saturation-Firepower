@@ -1,7 +1,6 @@
 {
 	"type": "flying",
 	"name": "燃空",
-	"description": "攻击附近所有敌人。发射高能光束。向地面敌人投掷热能制导炸弹。",
 	"speed": 2.6,
 	"drag": 0.02,
 	"accel": 0.03,

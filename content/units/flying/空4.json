@@ -1,8 +1,7 @@
 {
 	"type": "flying",
 	"name": "飓风",
-	"description": "轰击所有敌人。发射密集的能量弹与震爆弹",
-	"autoFindTarget":true,
+	"autoFindTarget": true,
 	"speed": 1.7,
 	"drag": 0.02,
 	"accel": 0.02,
@@ -27,13 +26,13 @@
 			"x": -12,
 			"y": -12,
 			"radius": 4,
-			"rotation": 10
+			"rotation": -45
 		},
 		{
 			"x": 12,
 			"y": -12,
 			"radius": 4,
-			"rotation": -10
+			"rotation": -135
 		}
 	],
 	"engineOffset": 18,
@@ -74,13 +73,25 @@
 				"smokeEffect": "none",
 				"hitEffect": {
 					"type": "WaveEffect",
-					"lifetime": 6,
+					"lifetime": 10,
 					"sizeFrom": 1,
-					"sizeTo": 8,
-					"strokeFrom": 6,
+					"sizeTo": 6,
+					"strokeFrom": 2,
 					"strokeTo": 0,
 					"colorFrom": "c0ecff",
 					"colorTo": "c0ecff"
+				},
+				"despawnEffect": {
+					"type": "ParticleEffect",
+					"particles": 1,
+					"sizeFrom": 2.23,
+					"sizeTo": 0,
+					"length": 0,
+					"baseLength": 0,
+					"lifetime": 8,
+					"colorFrom": "c0ecff",
+					"colorTo": "c0ecff",
+					"cone": 360
 				},
 				"damage": 19,
 				"width": 7,
@@ -118,13 +129,25 @@
 				"smokeEffect": "none",
 				"hitEffect": {
 					"type": "WaveEffect",
-					"lifetime": 6,
+					"lifetime": 10,
 					"sizeFrom": 1,
-					"sizeTo": 8,
-					"strokeFrom": 6,
+					"sizeTo": 6,
+					"strokeFrom": 2,
 					"strokeTo": 0,
 					"colorFrom": "c0ecff",
 					"colorTo": "c0ecff"
+				},
+				"despawnEffect": {
+					"type": "ParticleEffect",
+					"particles": 1,
+					"sizeFrom": 2.23,
+					"sizeTo": 0,
+					"length": 0,
+					"baseLength": 0,
+					"lifetime": 8,
+					"colorFrom": "c0ecff",
+					"colorTo": "c0ecff",
+					"cone": 360
 				},
 				"damage": 25,
 				"width": 7,
@@ -183,8 +206,8 @@
 							"sizeTo": 0,
 							"length": 45,
 							"baseLength": 0,
-							"interp":"pow5Out",
-							"sizeInterp":"pow5In",
+							"interp": "pow5Out",
+							"sizeInterp": "pow5In",
 							"lifetime": 25,
 							"colorFrom": "ffffff",
 							"colorTo": "c0ecff",
@@ -192,7 +215,7 @@
 						},
 						{
 							"type": "WaveEffect",
-							"interp":"circleOut",
+							"interp": "circleOut",
 							"lifetime": 18,
 							"sizeFrom": 1,
 							"sizeTo": 38,
@@ -261,8 +284,8 @@
 							"sizeTo": 0,
 							"length": 45,
 							"baseLength": 0,
-							"interp":"pow5Out",
-							"sizeInterp":"pow5In",
+							"interp": "pow5Out",
+							"sizeInterp": "pow5In",
 							"lifetime": 25,
 							"colorFrom": "ffffff",
 							"colorTo": "c0ecff",
@@ -270,7 +293,7 @@
 						},
 						{
 							"type": "WaveEffect",
-							"interp":"circleOut",
+							"interp": "circleOut",
 							"lifetime": 18,
 							"sizeFrom": 1,
 							"sizeTo": 38,

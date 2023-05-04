@@ -7,7 +7,6 @@
 	"hovering": true,
 	"canDrown": false,
 	"name": "攻城锤",
-	"description": "向地面目标发射大口径榴弹炮，优秀机动底盘能够跨越大部分地形与水域。",
 	"canBoost": false,
 	"speed": 1.2,
 	"hitSize": 12,

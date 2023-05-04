@@ -1,7 +1,6 @@
 {
 	"type": "flying",
 	"name": "余晖",
-	"description": "攻击附近所有敌人。发射密集的带电分裂弹与冲击束。发射巨型激光融化敌人并引起火灾。",
 	"ammoType": "surge-alloy",
 	"ammoCapacity": 1400,
 	"speed": 0.95,

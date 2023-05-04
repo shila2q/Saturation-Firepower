@@ -11,6 +11,7 @@
 	"inaccuracy": 0,
 	"recoil": 1,
 	"recoilTime":10,
+	"heatColor": "FF4040",
 	"shootType": {
 	"type" : "BasicBulletType",
 	"damage": 12,

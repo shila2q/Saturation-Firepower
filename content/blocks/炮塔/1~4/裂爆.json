@@ -6,6 +6,7 @@
 	"targetGround": true,
 	"health": 1700,
 	"size": 2,
+	"heatColor": "FF4040",
 	"cooldownTime": 80,
 	"accurateDelay": false,
 	"shootSound":"laser",

@@ -1,8 +1,6 @@
 {
 	"type": "flying",
 	"name": "雷暴",
-	"description": "发射磁爆能量弹与雷雨生成器。拥有小型护盾发生器。",
-	"details": "在雨天能够发挥最高杀伤能力。",
 	"ammoType": {
 		"type": "PowerAmmoType",
 		"totalPower": 2200

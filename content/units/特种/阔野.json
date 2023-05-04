@@ -1,7 +1,6 @@
 {
 	"type": "flying",
 	"name": "阔野",
-	"description": "投送超载引力发生器与光子导弹。间歇性发射冲击束，配备空域静电场。",
 	"ammoType": {
 		"type": "PowerAmmoType",
 		"totalPower": 50000

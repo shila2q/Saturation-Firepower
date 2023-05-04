@@ -1,7 +1,6 @@
 {
 	"type": "flying",
 	"name": "雷鸣",
-	"description": "发射脉冲弹与闪电发生器，装甲厚重，强袭敌军重要目标。",
 	"speed": 2,
 	"drag": 0.02,
 	"accel": 0.05,

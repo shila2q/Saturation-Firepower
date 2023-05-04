@@ -126,6 +126,7 @@
 		]
 	},
 	"shootY": 15,
+	"heatColor": "FF4040",
 	"cooldownTime": 360,
 	"shake": 8,
 	"inaccuracy": 8,

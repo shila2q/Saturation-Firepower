@@ -1,8 +1,6 @@
 {	"type":"payload",
 	"payloadCapacity":5184,
 	"name": "广寒",
-	"description": "高速修理友方单位并提供护盾，携带超载能量场电击敌人并发射切割光束。可以携带大型单位",
-	"details":"青天之上",
 	"speed": 0.81, 
 	"drag":0.03,"accel":0.02,
 	"rotateSpeed":1.2,

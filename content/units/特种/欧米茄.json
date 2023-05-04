@@ -5,9 +5,9 @@
 	"accel": 0.05,
 	"drag": 0.03,
 	"rotateSpeed": 6,
-	//"speed": 3.8,
-	"itemCapacity": 10000,
-	"speed": 10,
+	"speed": 3.8,
+	//"itemCapacity": 10000,
+	//"speed": 10,
 	"immunities": [
 		"sapped","slow","unmoving",
 		"spore-slowed","corroded","electrified",

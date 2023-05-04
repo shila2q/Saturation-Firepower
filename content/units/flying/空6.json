@@ -1,7 +1,6 @@
 {
 	"type": "payload",
 	"name": "地动",
-	"description": "投下电默弹与攻顶燃烧弹。配备重力滞空导弹巢。\n可以携带单位进行空降作战。",
 	"pickupUnits":true,
 	"payloadCapacity":2304,
 	"rotateSpeed":1.1,

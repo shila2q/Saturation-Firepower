@@ -1,8 +1,6 @@
 {	
 	"type":"mech",
 	"name":"立宪",
-	"description":"发射巨型穿甲爆破弹与闪电链，穿透敌军和建筑。\n正面强攻与空降作战的核心力量之一。",
-	"details":"法律是由战胜者制定的······",
 	"hitSize":48,
 	"canDrown":false,
 	"armor":36,

@@ -1,7 +1,6 @@
 {
 "type":"legs",
 "name": "盘龙",
-"description": "发射盘龙火箭与大量激光，并在此过程中修复自己，能够长时间持续作战。\n能跨越大多数地形。",
 "armor": 30,
 "speed": 0.76,
 "rotateSpeed": 1.12,
