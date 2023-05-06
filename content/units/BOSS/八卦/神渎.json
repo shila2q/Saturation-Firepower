@@ -2,7 +2,7 @@
 	"type": "mech",
 	"name": "神渎",
 	"healColor":"FF5B5B",
-	"outlineColor": "383848",
+	"outlineColor":"383848",
 	"hitSize": 88,
 	"canDrown": false,
 	"armor": 106,

@@ -26,8 +26,7 @@
 	"rotateSpeed": 3.6,
 	"minWarmup": 0.89,
 	"shootY":8,
-	"drawer":{"type":"DrawMulti",
-	"drawers":[{"type":"DrawTurret",
+	"drawer":{"type":"DrawTurret",
 	"parts":[
 		{
 			"type": "RegionPart",
@@ -53,7 +52,7 @@
 				"y": -5}]
 			}]
 		}
-	]}]},
+	]},
 	"ammoTypes": {
 		"metaglass":{
 			"type":"BasicBulletType",

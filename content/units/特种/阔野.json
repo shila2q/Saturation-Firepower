@@ -10,7 +10,7 @@
 	"rotateSpeed": 0.622,
 	"drag": 0.05,
 	"accel": 0.08,
-	"fogRadius": 95,
+	"fogRadius": 85,
 	"lightRadius": 560,
 	"flying": true,
 	"buildRange": 400,
@@ -114,7 +114,7 @@
 			"healPercent": 0.856,
 			"effectRadius": 9,
 			"sectors": 8,
-			"sectorRad": 0.08,
+			"sectorRad": 0.06,
 			"rotateSpeed": 2,
 			"color": "FEEBB3FF",
 			"hitEffect": {

@@ -503,7 +503,7 @@
 			"bullet": {
 				"keepVelocity":false,
 				"speed":0,
-				"shake":8,
+				"hitShake":8,
 				"shootEffect":{
 				"type": "WaveEffect",
 				"interp":"circleOut",
